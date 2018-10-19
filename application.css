@@ -2843,7 +2843,7 @@ g.mapplic-active > * {
     .social_box img {
         max-width: 80%;
     }
-    #hours_mobile, #fb_mobile {
+    #hours_mobile, #fb_mobile, #twitter_mobile {
         width: 80%;
         top: 60%;
     }
