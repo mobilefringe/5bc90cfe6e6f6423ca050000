@@ -113,7 +113,7 @@
                 $("#sponsorship").show();
             }
             else if(slug == 'aberdeen-security') {
-                $("#sponsorship").show();
+                $("#security").show();
             }
             else if(slug == 'aberdeen-sponsorships-donations') {
                 $("#sponsorship").show();
