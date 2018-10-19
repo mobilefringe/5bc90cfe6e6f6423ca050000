@@ -112,6 +112,12 @@
             else if(slug == 'aberdeen-sponsorships-donations') {
                 $("#sponsorship").show();
             }
+            else if(slug == 'aberdeen-security') {
+                $("#sponsorship").show();
+            }
+            else if(slug == 'aberdeen-sponsorships-donations') {
+                $("#sponsorship").show();
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
