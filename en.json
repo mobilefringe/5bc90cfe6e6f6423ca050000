@@ -66,13 +66,13 @@
 	    "in_community": "Community",
 	    "mall_photos": "Mall Photos",
 	    "community": "Community Bookings",
-		"sponsorship": "Sponsorship ",
+		"sponsorship": "Sponsorship",
 		"services": "Services & Accessibility",
 		"hours": "Shopping Hours",
 		"tourist_info": "Tourist Info",
 		"contact_us": "Contact Us",
 	    "security": "Security",
-	    "marketing":"Marketing & Advertising"
+	    "marketing":"Marketing"
 	},
 	"stores": {
 	    "title": "Stores",
