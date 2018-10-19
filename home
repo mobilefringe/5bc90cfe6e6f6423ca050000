@@ -80,11 +80,11 @@
                         </a>
                         <p id="latest_fb_date" class="latest_post"></p>
                         <p id="fb_link">
-                            <a  class="social_link_blank" href="https://www.facebook.com/lambtonmall" target="_blank">Facebook/LambtonMall</a>
+                            <a  class="social_link_blank" href="https://www.facebook.com/aberdeenmall" target="_blank">Facebook/LambtonMall</a>
                         </p>
                     </span>
                     <span class="visible-sm-block visible-xs-block">
-                        <a href="https://www.facebook.com/lambtonmall" target="_blank">
+                        <a href="https://www.facebook.com/aberdeenmall" target="_blank">
                             <h5 id="fb_mobile" class="insta">LIKE US ON FACEBOOK</h5>
                         </a>        
                     </span>
