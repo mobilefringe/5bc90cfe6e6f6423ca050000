@@ -283,8 +283,8 @@
                         <div class="col-md-6 col-xs-6">
                             <ul>
                                 <li><a href="/stores" data-i18n="nav.subnav.directory"></a></li>
-                                <li><a href="/events" data-i18n="nav.events"></a></li>
-                                <li><a href="/promotions" data-i18n="nav.promos"></a></li>
+                                <li><a href="/events" data-i18n="nav.subnav.events"></a></li>
+                                <li><a href="/promotions" data-i18n="nav.subnav.promos"></a></li>
                                 <li><a href="/jobs" data-i18n="nav.subnav.careers"></a></li>
                             </ul>
                         </div>
