@@ -29,7 +29,7 @@
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
         </div>
          <div class="col-md-4">
-            <h5><a href="aberdeen-community-bookings" data-i18n="inside_page.sponsorship"></a></h5>
+            <h5><a href="/pages/aberdeen-community-bookings" data-i18n="inside_page.sponsorship"></a></h5>
         </div>
          <div class="col-md-4">
             <h5 class="active_heading" data-i18n="inside_page.sponsorship"></h5>
