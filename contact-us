@@ -23,7 +23,7 @@
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/leasing" data-i18n="inside_page.leasong"></option>
             <option value="/pages/aberdeen-security" data-i18n="inside_page.security"></option>
-            <option value="/directions-and-parking" data-i18n="inside_page.directions"></option>
+            <option value="/directions-and-parking" data-i18n="inside_page.marketing"></option>
         </select>
     </h5>
 </div>
