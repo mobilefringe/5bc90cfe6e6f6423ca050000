@@ -115,8 +115,8 @@
             else if(slug == 'aberdeen-security') {
                 $("#security").show();
             }
-            else if(slug == 'aberdeen-sponsorships-donations') {
-                $("#sponsorship").show();
+            else if(slug == 'aberdeen-marketing-advertising') {
+                $("#marketing").show();
             }
             show_content();
         }
