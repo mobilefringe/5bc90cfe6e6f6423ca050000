@@ -147,6 +147,11 @@
                         <li><a href="/jobs" data-i18n="nav.subnav.careers"></a></li>
 					</ul>
                 </li>
+                <li>
+                    <a href="/jobs">
+                        <span data-i18n="nav.careers"></span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
