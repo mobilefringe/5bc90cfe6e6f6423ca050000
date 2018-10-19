@@ -213,7 +213,7 @@
             <div class="hedaer_divider"></div>
         </section>
     </div>
-    <h1 class="accessibility">Lambton Mall</h1>
+    <h1 class="accessibility">Aberdeen Mall</h1>
     <section class="yield">
         {{yield}}
     </section>
@@ -292,7 +292,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="site_map_heading">&copy; <span id="current_year"></span> - Lambton Mall</h3>
+                    <h3 class="site_map_heading">&copy; <span id="current_year"></span> - Aberdeen Mall</h3>
                     <p class="rights_reserved">
                         <a href="https://goo.gl/maps/X9vpPnMnAMT2r" target="_blank">
                             1380 London Rd<br> 
