@@ -22,6 +22,7 @@
 		"guest_services": "Guest Services",
 		"mall_services": "Mall Services",
 		"plan_your_visit":"Plan Your Visit",
+		"careers": "Careers",
 		"subnav": {
 			"directory": "Directory",
 	        "map": "Shopping Map",
@@ -33,8 +34,10 @@
 			"services": "Services & Accessibility",
 			"hours": "Shopping Hours",
 			"tourist_info": "Tourist Info",
+			"contact_us": "Contact Us",
 		    "leasing": "Leasing",
-			"careers": "Careers"
+		    "security": "Securtiy",
+		    "marketing":"Marketing & Advertising"
 		}
 	},
 	"home": {
