@@ -55,7 +55,7 @@
             
             <div class="feature_item">
                
-                <div class="social_box twitter_box hidden_phone text-center" id="social_twitter">
+                <div class="social_box twitter_box text-center" id="social_twitter">
                     <span class="hidden-sm hidden-xs">
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
                        
