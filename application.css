@@ -2571,6 +2571,7 @@ g.mapplic-active > * {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
+            padding: 30px;
     }
 }
 
@@ -2847,7 +2848,7 @@ g.mapplic-active > * {
     #hours_mobile, #fb_mobile, #twitter_mobile {
         width: 80%;
         top: 60%;
-            font-size: 12px;
+        font-size: 12px;
     }
 }
 @media(max-width: 375px){
