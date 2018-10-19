@@ -56,14 +56,19 @@
             <div class="feature_item">
                
                 <div class="social_box twitter_box hidden_phone text-center" id="social_twitter">
-                    <div>
+                    <span class="hidden-sm hidden-xs">
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
                        
                         <p id="latest_tweet_date" class="latest_post"></p>
                         <p id="twitter_link">
                             <a  class="social_link_blank" href="https://twitter.com/AberdeenMall" target="_blank">@AberdeenMall</a>
                         </p>
-                    </div>
+                    </span>
+                    <span class="visible-sm-block visible-xs-block">
+                        <a href="https://twitter.com/AberdeenMall" target="_blank">
+                            <h5 id="fb_mobile" class="insta">LIKE US ON FACEBOOK</h5>
+                        </a>        
+                    </span>
                 </div>
                 <div id="feature_2" class="position_relative"></div>
                 <div id="feature_3" class="position_relative"></div>
