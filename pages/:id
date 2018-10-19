@@ -27,7 +27,7 @@
         </select>
     </h5>
 </div>
-<div class="store_list_head main_container hidden_now" id="in_community">
+<div class="store_list_head main_container hidden_now" id="tourist_info">
     <div class="row hidden_phone">
         <div class="col-md-3">
             <h5><a href="/services" data-i18n="inside_page.services"></a></h5>
