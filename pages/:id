@@ -99,7 +99,7 @@
                 
             }
             else if (slug == 'aberdeen-in-the-community'){
-                $("#in_community").show();
+                $("#tourist_ingo").show();
                 
             }
             show_content();
