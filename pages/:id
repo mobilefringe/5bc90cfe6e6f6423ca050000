@@ -92,7 +92,7 @@
             else if (slug == 'aberdeen-faq'){
                 $("#tourist_info").show();
             }
-            else if()
+            else if(slug == 'aberdeen-community-bookings')
             show_content();
         }
         loadMallDataCached(renderAll); 
