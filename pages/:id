@@ -23,7 +23,7 @@
         </select>
     </h5>
 </div>
-<div class="store_list_head main_container hidden_now" id="community">
+<div class="store_list_head main_container hidden_now" id="sponsorship">
     <div class="row hidden_phone">
         <div class="col-md-4">
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
