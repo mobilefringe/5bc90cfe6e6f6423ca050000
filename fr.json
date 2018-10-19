@@ -1,0 +1,119 @@
+{
+	"header": {
+	    "todays_hours": "Heures",
+	    "check_hours": "Horaire des jours fériés"
+	},
+	"footer": {
+	    "newsletter_title": "Abonnez-vous pour recevoir nos nouveautés",
+	    "newsletter_tagline": "Mode • Événements • Soldes",
+	    "newsletter_submit": "S’inscrire",
+	    "social_title": "Médias sociaux",
+	    "social_subtitle": "Suivez-nous sur les médias sociaux pour nos nouvelles.",
+	    "site_map": "Carte du site",
+	    "power": "Développé par",
+	    "contact": "Centre de services à la clientèle"
+	},
+	"nav": {
+	    "menu": "Menu",
+		"stores": "Répertoire",
+		"news": "Actualités & événements",
+		"services": "Services",
+		"about": "À Propos",
+		"leasing": "Location",
+		"subnav": {
+			"directory": "Points de vente",
+	        "map": "Plan du centre",
+	        "news": "Actualités",
+			"events": "Événements",
+		    "promos": "Aubaines",
+		    "careers": "Carrières",
+		    "guest_services": "Services à la clientèle",
+		    "gift_cards": "Chèques-cadeaux",
+		    "contact": "Nous joindre",
+			"hours": "Heures",
+			"about": "À Propos",
+			"directions": "Directions et stationnement"
+		}
+	},
+	"home": {
+		"insta": "Suivez-nous sur Instagram",
+		"hours": "Heures d'ouverture",
+		"hours_link": "Voir plus d’heures"
+	},
+	"inside_page": {
+	    "header_tagline": "EXPLOREZ • PROFITEZ • MAGASINEZ",
+	    "mobile_menu": "Cliquez pour avoir plus d’options",
+	    "stores": "Points de vente",
+	    "map": "Plan du centre",
+	    "news": "Actualités",
+	    "events": "Événements",
+	    "deals": "Aubaines",
+	    "careers": "Carrières",
+	    "guest_services": "Services à la clientèle",
+	    "gift_cards": "Chèques-cadeaux",
+	    "contact": "Nous joindre",
+	    "hours": "Heures",
+	    "about": "À Propos",
+	    "directions": "Directions",
+	    "leasing": "Location",
+	    "share": "Partager: "
+	},
+	"stores": {
+	    "title": "Points de vente",
+	    "new_stores": "Nouveaux  points de vente",
+	    "coming_soon": "À venir",
+	    "category": "Catégories",
+	    "categories_all": "Tout",
+	    "back_btn": "Retourner aux points de vente",
+	    "store_promo": "Aubaines",
+	    "store_job": "Carrières",
+	    "store_details": "Afficher les détails des points de vente",
+	    "store_phone": "Téléphone",
+	    "store_website": "Site Internet"
+	},
+	"map": {
+	    "title": "Plan du centre",
+	    "find_store": "Trouver un point de vente",
+	    "scroll_up": "Défilez vers le haut",
+	    "scroll_down": "Défilez vers le bas",
+	    "select": "Select a Store"
+	},
+	"news": {
+	    "title": "Actualités",
+	    "return": "Retourner aux actualités",
+	    "posted": "Publié le:"
+	},
+	"events": {
+	    "title": "Événements",
+	    "no_events": "Il n'y a aucun événement de planifié à l’heure actuelle. Veuillez revérifier sous peu.",
+	    "return": "Retourner aux événements"
+	},
+	"promos": {
+	    "title": "Aubaines",
+	    "no_deals": "Il n'y a aucune aubaine de prévue pour le moment. Veuillez revérifier bientôt.",
+	    "return": "Retourner aux aubaines"        
+	},
+	"jobs": {
+	    "title": "Carrières",
+	    "no_jobs": "Il n'y a actuellement aucune offre d’emploi de disponible. Veuillez revérifier bientôt.",
+	    "return": "Retourner aux offres d'emploi"    
+	},
+	"hours": {
+	    "title": "Heures d’ouverture",
+	    "regular_hours": "Heures normales",
+	    "reduced_hours": "Réduction des heures d’ouverture",
+	    "closed_hours": "Fermetures des jours fériés"
+	},
+    "directions": {
+        "title": "Directions et stationnement"    
+    },
+    "newsletter": {
+        "title": "Bulletin",
+        "name": "Nom et prénom",
+        "email": "Courriel",
+        "agree": "J’accepte de recevoir des courriels de 
+        "subscribe": "S’abonner",
+        "thank_you": "Merci!",
+        "message": "Votre abonnement a été confirmée. Vous avez été ajouté à notre liste, nous vous contacterons bientôt."
+    }
+}
