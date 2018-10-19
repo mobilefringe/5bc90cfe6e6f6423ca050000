@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 hidden_phone">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/png/1538496378502/LamptonMallLogoSquare.png" alt="Lambton Mall Logo" class="store_logo" />
+                    <img src="//codecloud.cdn.speedyrails.net/sites/5bad55136e6f646976330000/image/png/1538496378502/LamptonMallLogoSquare.png" alt="Aberdeen Mall Logo" class="store_logo" />
                     <div class="share_container">
                         <span data-i18n="inside_page.share"></span>
                         <a href="https://www.facebook.com/sharer.php?u=https://aberdeenmall.ca/posts/{{slug}}" target="_blank">
