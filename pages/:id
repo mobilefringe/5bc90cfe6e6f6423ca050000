@@ -110,7 +110,7 @@
                 $("#community").show();
             }
             else if(slug == 'aberdeen-sponsorships-donations') {
-                $("#sponsoship").show();
+                $("#sponsorship").show();
             }
             show_content();
         }
