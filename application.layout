@@ -121,8 +121,6 @@
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/pages/aberdeen-accessibility" data-i18n="nav.subnav.services"></a></li>
-                        <li><a href="/pages/aberdeen-community-bookings" data-i18n="nav.subnav.community"></a></li>
-                        <li><a href="/pages/aberdeen-sponsorships-donations" data-i18n="nav.subnav.sponsorship"></a></li>
 					</ul>
                 </li>
                 <li>
