@@ -86,6 +86,31 @@
         </select>
     </h5>
 </div>
+<div class="store_list_head main_container hidden_now" id="security">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5><a href="/contact-us" data-i18n="inside_page.contact_us"></a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/leasing" data-i18n="inside_page.leasing"></a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5 class="active_heading" data-i18n="inside_page.security"></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <label class="accessibility" for="option_selector">Select an Option</label>
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
+            <option value="/leasing" data-i18n="inside_page.leasing"></option>
+            <option value="/contact-us" data-i18n="inside_page.contact_us"></option>
+            <option value="/pages/aberdeen-security" data-i18n="inside_page.marketing"></option>
+        </select>
+    </h5>
+</div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
     <div class="row">
