@@ -8,7 +8,7 @@
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
         </div>
          <div class="col-md-4">
-            <h5 class="active_heading" data-i18n="inside_page.act_green"></h5>
+            <h5 class="active_heading" data-i18n="inside_page.community"></h5>
         </div>
          <div class="col-md-4">
             <h5><a href="/pages/aberdeen-in-the-community" data-i18n="inside_page.in_community"></a></h5>
