@@ -131,9 +131,7 @@
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/hours" data-i18n="nav.subnav.hours"></a></li>
-                        <li><a href="/mall-info" data-i18n="nav.subnav.mall_info"></a></li>
-                        <li><a href="/leasing" data-i18n="nav.subnav.leasing"></a></li>
-                        <li><a href="/jobs" data-i18n="nav.subnav.careers"></a></li>
+                        <li><a href="/pages/aberdeen-faq" data-i18n="nav.subnav.tourist_info"></a></li>
 					</ul>
                 </li>
                 <li>
