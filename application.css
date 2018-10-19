@@ -2250,7 +2250,7 @@ g.mapplic-active > * {
         display:block;
     }
     .main_logo{
-        max-width: 180px;
+        max-width: 240px;
         margin-top: 12px;
     }
     .search_btn{
@@ -2806,6 +2806,10 @@ g.mapplic-active > * {
     }
 }
 @media(max-width: 425px){
+    .main_logo{
+        max-width: 180px;
+        margin-top: 12px;
+    }
     .margin_25_across {
         margin-left: 15px;
         margin-right: 15px;
