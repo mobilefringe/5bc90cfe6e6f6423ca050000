@@ -22,7 +22,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/leasing" data-i18n="inside_page.leasong"></option>
-            <option value="/pages/aberdeen-security" data-i18n="inside_page.about"></option>
+            <option value="/pages/aberdeen-security" data-i18n="inside_page.security"></option>
             <option value="/directions-and-parking" data-i18n="inside_page.directions"></option>
         </select>
     </h5>
