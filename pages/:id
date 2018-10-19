@@ -33,7 +33,7 @@
             <h5><a href="/hours" data-i18n="inside_page.hours"></a></h5>
         </div>
          <div class="col-md-6">
-            <h5 class="active_heading" data-i18n="inside_page.in_community"></h5>
+            <h5 class="active_heading" data-i18n="inside_page.tourist_info"></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
