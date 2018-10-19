@@ -98,8 +98,8 @@
                 $("#act_green").show();
                 
             }
-            else if (slug == 'aberdeen-in-the-community'){
-                $("#tourist_ingo").show();
+            else if (slug == '/pages/aberdeen-faq'){
+                $("#tourist_info").show();
                 
             }
             show_content();
