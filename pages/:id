@@ -88,12 +88,11 @@
             // check if top header should be shown 
             if(slug == 'aberdeen-act-green-initiatives'){
                 $("#act_green").show();
-                
             }
             else if (slug == 'aberdeen-faq'){
                 $("#tourist_info").show();
-                
             }
+            else if()
             show_content();
         }
         loadMallDataCached(renderAll); 
