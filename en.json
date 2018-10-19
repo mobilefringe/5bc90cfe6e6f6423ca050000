@@ -66,7 +66,15 @@
 	    "share": "Share: ",
 	    "act_green": "ACT Green",
 	    "in_community": "Community",
-	    "mall_photos": "Mall Photos"
+	    "mall_photos": "Mall Photos""community": "Community Bookings",
+			"sponsorship": "Sponsorship & Donations",
+			"services": "Services & Accessibility",
+			"hours": "Shopping Hours",
+			"tourist_info": "Tourist Info",
+			"contact_us": "Contact Us",
+		    "leasing": "Leasing",
+		    "security": "Security",
+		    "marketing":"Marketing & Advertising"
 	},
 	"stores": {
 	    "title": "Stores",
