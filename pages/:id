@@ -95,6 +95,9 @@
             else if(slug == 'aberdeen-community-bookings') {
                 $("#community").show();
             }
+            else if(slug == 'aberdeen-sponsorships-donations') {
+                $("#sponsoship").show();
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
