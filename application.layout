@@ -292,7 +292,7 @@
                             <ul>
                                 <li><a href="/hours" data-i18n="nav.subnav.hours"></a></li>
                                 <li><a href="/mall-info" data-i18n="nav.subnav.mall_info"></a></li>
-                                <li><a href="/pages/aberdeen-gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
+                                <li><a href="/pages/gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
                                 <li><a href="/services" data-i18n="nav.subnav.services"></a></li>
                                 <li><a href="/leasing" data-i18n="nav.subnav.leasing"></a></li>
                             </ul>
