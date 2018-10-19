@@ -90,7 +90,7 @@
                 $("#act_green").show();
                 
             }
-            else if (slug == '/pages/aberdeen-faq'){
+            else if (slug == 'aberdeen-faq'){
                 $("#tourist_info").show();
                 
             }
