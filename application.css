@@ -327,6 +327,7 @@ a {
     width:235px;
     display:block;
     background: url('//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/png/1539967936965/hoursicon_transparent.png'), center center no-repeat;
+    background-color: $primary;
     background-size: contain;
     position: relative;
     &:hover{
