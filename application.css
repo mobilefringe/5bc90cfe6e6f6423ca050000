@@ -367,6 +367,7 @@ a {
     left: 50%;
     transform: translate(-50%);
     width: 80%;
+        padding: 5px;
 }
 #latest_fb_date, #latest_tweet_date {
     top: 170px;
@@ -2617,7 +2618,7 @@ g.mapplic-active > * {
     }
     .main_logo{
         max-width: 100%;
-            margin-top: 20px;
+        margin-top: 20px;
     }
     .search_field{
         height: 31px;
