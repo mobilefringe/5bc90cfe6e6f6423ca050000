@@ -141,7 +141,7 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/hours" data-i18n="nav.subnav.contact_us"></a></li>
+                        <li><a href="/contact-us" data-i18n="nav.subnav.contact_us"></a></li>
                         <li><a href="/leasing" data-i18n="nav.subnav.leasing"></a></li>
                         <li><a href="/pages/aberdeen-security" data-i18n="nav.subnav.security"></a></li>
                         <li><a href="/pages/aberdeen-marketing-advertising" data-i18n="nav.subnav.marketing"></a></li>
