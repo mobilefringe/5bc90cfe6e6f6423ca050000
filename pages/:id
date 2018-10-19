@@ -40,7 +40,7 @@
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
-            <option value="/services" data-i18n="inside_page.services"></option>
+            <option value="/hours" data-i18n="inside_page.houts"></option>
             <option value="/gift-cards" data-i18n="inside_page.gift_cards"></option>
             <option value="/pages/aberdeen-act-green-initiatives" data-i18n="inside_page.act_green"></option>
         </select>
