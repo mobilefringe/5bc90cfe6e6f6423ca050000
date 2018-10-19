@@ -80,7 +80,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var post = getPublishedPostDetailsBySlug(slug);
-            var blog = getBlogDataBySlug("lambton-back-to-school").posts.reverse();
+            var blog = getBlogDataBySlug("aberdeen-back-to-school").posts.reverse();
             renderPostDetails("#post_details_container", "#post_details_template", post, blog);
             
             show_content();
