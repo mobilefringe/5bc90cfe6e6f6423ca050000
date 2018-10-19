@@ -2847,6 +2847,7 @@ g.mapplic-active > * {
     #hours_mobile, #fb_mobile, #twitter_mobile {
         width: 80%;
         top: 60%;
+            font-size: 12px;
     }
 }
 @media(max-width: 375px){
