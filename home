@@ -61,6 +61,16 @@
             </li>
         </ul>
     </div>
+    <div class="banner_text" id="welcome_msg_container">
+        <script id="welcome_msg_template" type="x-tmpl-mustache/text">
+            {{#welcome_message}}<h3>
+                {{welcome_message}}
+            </h3>{{/welcome_message}}
+            {{#description}}<p>
+                {{description}}
+            </p>{{/description}}
+        </script>
+    </div>
 </div>
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
