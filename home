@@ -152,6 +152,7 @@
             // renderBanner('#banner_template','#home_banner',banners);
             var property = [getPropertyDetails()];
             renderGeneral('#welcome_msg_container','#welcome_msg_template',property);
+            
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
