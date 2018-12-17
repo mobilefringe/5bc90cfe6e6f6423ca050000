@@ -75,77 +75,77 @@
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
-            <div class="feature_item">
+            <!--<div class="feature_item">-->
             
-                <div id="feature_0" class="position_relative"></div>
-                <div id="feature_1" class="position_relative"></div>
-            </div>
+            <!--    <div id="feature_0" class="position_relative"></div>-->
+            <!--    <div id="feature_1" class="position_relative"></div>-->
+            <!--</div>-->
             
-            <div class="feature_item">
+            <!--<div class="feature_item">-->
                
-                <div class="social_box twitter_box text-center" id="social_twitter">
-                    <span class="hidden-sm hidden-xs">
-                        <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
+            <!--    <div class="social_box twitter_box text-center" id="social_twitter">-->
+            <!--        <span class="hidden-sm hidden-xs">-->
+            <!--            <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>-->
                        
-                        <p id="latest_tweet_date" class="latest_post"></p>
-                        <p id="twitter_link">
-                            <a  class="social_link_blank" href="https://twitter.com/AberdeenMall" target="_blank">@AberdeenMall</a>
-                        </p>
-                    </span>
-                    <span class="visible-sm-block visible-xs-block">
-                        <a href="https://twitter.com/AberdeenMall" target="_blank">
-                            <h5 id="twitter_mobile" class="insta">FOLLOW US @AberdeenMall</h5>
-                        </a>        
-                    </span>
-                </div>
-                <div id="feature_2" class="position_relative"></div>
-                <div id="feature_3" class="position_relative"></div>
+            <!--            <p id="latest_tweet_date" class="latest_post"></p>-->
+            <!--            <p id="twitter_link">-->
+            <!--                <a  class="social_link_blank" href="https://twitter.com/AberdeenMall" target="_blank">@AberdeenMall</a>-->
+            <!--            </p>-->
+            <!--        </span>-->
+            <!--        <span class="visible-sm-block visible-xs-block">-->
+            <!--            <a href="https://twitter.com/AberdeenMall" target="_blank">-->
+            <!--                <h5 id="twitter_mobile" class="insta">FOLLOW US @AberdeenMall</h5>-->
+            <!--            </a>        -->
+            <!--        </span>-->
+            <!--    </div>-->
+            <!--    <div id="feature_2" class="position_relative"></div>-->
+            <!--    <div id="feature_3" class="position_relative"></div>-->
                 
-            </div>
+            <!--</div>-->
             
-            <div class="feature_item">
-                <div id="feature_4" class="position_relative"></div>
-                <div class="social_box text-center" id="social_fb">
+            <!--<div class="feature_item">-->
+            <!--    <div id="feature_4" class="position_relative"></div>-->
+            <!--    <div class="social_box text-center" id="social_fb">-->
                    
-                    <span class="hidden-sm hidden-xs">
-                        <a href="#" id="latest_fb_link" target="_blank">
-                            <p id="latest_fb" class="latest_post"></p>
-                        </a>
-                        <p id="latest_fb_date" class="latest_post"></p>
-                        <p id="fb_link">
-                            <a  class="social_link_blank" href="https://www.facebook.com/aberdeenmall" target="_blank">Facebook/AberdeenMall</a>
-                        </p>
-                    </span>
-                    <span class="visible-sm-block visible-xs-block">
-                        <a href="https://www.facebook.com/aberdeenmall" target="_blank">
-                            <h5 id="fb_mobile" class="insta">LIKE US ON FACEBOOK</h5>
-                        </a>        
-                    </span>
-                </div>
-                <div id="feature_5" class="position_relative"></div>
-            </div>
+            <!--        <span class="hidden-sm hidden-xs">-->
+            <!--            <a href="#" id="latest_fb_link" target="_blank">-->
+            <!--                <p id="latest_fb" class="latest_post"></p>-->
+            <!--            </a>-->
+            <!--            <p id="latest_fb_date" class="latest_post"></p>-->
+            <!--            <p id="fb_link">-->
+            <!--                <a  class="social_link_blank" href="https://www.facebook.com/aberdeenmall" target="_blank">Facebook/AberdeenMall</a>-->
+            <!--            </p>-->
+            <!--        </span>-->
+            <!--        <span class="visible-sm-block visible-xs-block">-->
+            <!--            <a href="https://www.facebook.com/aberdeenmall" target="_blank">-->
+            <!--                <h5 id="fb_mobile" class="insta">LIKE US ON FACEBOOK</h5>-->
+            <!--            </a>        -->
+            <!--        </span>-->
+            <!--    </div>-->
+            <!--    <div id="feature_5" class="position_relative"></div>-->
+            <!--</div>-->
             
-            <div class="feature_item">
-                <div class="social">
-                    <a href="/hours" class="social_box text-center hours_box" id="hours_box">
+            <!--<div class="feature_item">-->
+            <!--    <div class="social">-->
+            <!--        <a href="/hours" class="social_box text-center hours_box" id="hours_box">-->
                        
-                        <span class="hidden-sm hidden-xs">
-                            <div id="home_hours_container2" class="home_feature_hours">
-                                <script id="home_hours_template2" type="x-tmpl-mustache/text">
-                                    <h5 data-i18n="home.hours"></h5>
-                                    <span class="hours_today">{{h}}</span>
-                                </script>
-                            </div>
-                            <p class="hours_link" data-i18n="home.hours_link"></p>
-                        </span>
-                        <span class="visible-sm-block visible-xs-block">
-                            <h5 id="hours_mobile" class="insta caps" data-i18n="home.hours"></h5>    
-                        </span>
-                    </a>
-                </div>
-                <div id="feature_6" class="position_relative"></div>
-            </div>
-            <div class="clearfix"></div>
+            <!--            <span class="hidden-sm hidden-xs">-->
+            <!--                <div id="home_hours_container2" class="home_feature_hours">-->
+            <!--                    <script id="home_hours_template2" type="x-tmpl-mustache/text">-->
+            <!--                        <h5 data-i18n="home.hours"></h5>-->
+            <!--                        <span class="hours_today">{{h}}</span>-->
+            <!--                    </script>-->
+            <!--                </div>-->
+            <!--                <p class="hours_link" data-i18n="home.hours_link"></p>-->
+            <!--            </span>-->
+            <!--            <span class="visible-sm-block visible-xs-block">-->
+            <!--                <h5 id="hours_mobile" class="insta caps" data-i18n="home.hours"></h5>    -->
+            <!--            </span>-->
+            <!--        </a>-->
+            <!--    </div>-->
+            <!--    <div id="feature_6" class="position_relative"></div>-->
+            <!--</div>-->
+            <!--<div class="clearfix"></div>-->
         </div>
     </div>
 </div>
