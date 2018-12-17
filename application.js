@@ -204,7 +204,7 @@ function renderEventDetails(container, template, collection, mall_name){
 function renderFeatureItems(){
     // var items = getFeatureList();
     var items = [];
-    var images= ["https://picsum.photos/470/940?image=1070","https://picsum.photos/470?image=1071","https://picsum.photos/470?image=1072","https://picsum.photos/470?image=1073","https://picsum.photos/470?image=1074","https://picsum.photos/470?image=1076","https://picsum.photos/470/940?image=1077"]
+    var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144060000/ABE_002_LargeSquareFeatureItems_940x940_FA_01.jpg","https://picsum.photos/470?image=1071","https://picsum.photos/470?image=1072","https://picsum.photos/470?image=1073","https://picsum.photos/470?image=1074","https://picsum.photos/470?image=1076","https://picsum.photos/470/940?image=1077"]
     var urls = ["/feature1_url", "/feature2_url", "feature3_url", "feature4_url", "feature5_url", "feature6_url", "feature7_url"];
     var names = ["feature1", "feature", "featurel", "feature4", "feature5", "feature6", "feature7"];
     $.each(images, function(i, val){
