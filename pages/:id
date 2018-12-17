@@ -4,13 +4,13 @@
 </div>
 <div class="store_list_head main_container hidden_now" id="community">
     <div class="row hidden_phone">
-        <div class="col-md-4">
+        <div class="col-md-4  col-sm-4">
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
         </div>
-         <div class="col-md-4">
+         <div class="col-md-4  col-sm-4">
             <h5 class="active_heading" data-i18n="inside_page.community"></h5>
         </div>
-         <div class="col-md-4">
+         <div class="col-md-4  col-sm-4">
             <h5><a href="/pages/aberdeen-sponsorships-donations" data-i18n="inside_page.sponsorship"></a></h5>
         </div>
     </div>
@@ -25,13 +25,13 @@
 </div>
 <div class="store_list_head main_container hidden_now" id="sponsorship">
     <div class="row hidden_phone">
-        <div class="col-md-4">
+        <div class="col-md-4  col-sm-4">
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
         </div>
-         <div class="col-md-4">
+         <div class="col-md-4  col-sm-4">
             <h5><a href="/pages/aberdeen-community-bookings" data-i18n="inside_page.community"></a></h5>
         </div>
-         <div class="col-md-4">
+         <div class="col-md-4  col-sm-4">
             <h5 class="active_heading" data-i18n="inside_page.sponsorship"></h5>
         </div>
     </div>
@@ -63,16 +63,16 @@
 </div>
 <div class="store_list_head main_container hidden_now" id="security">
     <div class="row hidden_phone">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-3">
             <h5><a href="/contact-us" data-i18n="inside_page.contact_us"></a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  col-sm-3">
             <h5><a href="/leasing" data-i18n="inside_page.leasing"></a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  col-sm-3">
             <h5 class="active_heading" data-i18n="inside_page.security"></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  col-sm-3">
             <h5><a href="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></a></h5>
         </div>
     </div>
