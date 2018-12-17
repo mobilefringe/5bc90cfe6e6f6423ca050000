@@ -76,6 +76,7 @@
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
             <div class="feature_item">
+            <div id="feature_0" class="position_relative"></div>
             </div>
             <!--<div class="feature_item">-->
             
