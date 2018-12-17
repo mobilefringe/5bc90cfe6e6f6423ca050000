@@ -46,17 +46,7 @@
         <ul class="slides" id="home_banner">
             <li class="position_relative">
                 <a href="/stores" {{css}}>
-                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=770')"></div>
-                </a>
-            </li>
-            <li class="position_relative">
-                <a href="/stores" {{css}}>
-                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=773')"></div>
-                </a>
-            </li>
-            <li class="position_relative">
-                <a href="/stores" {{css}}>
-                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=774')"></div>
+                    <div class="hero_banner" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544143977000/ABE_002_HomePageHeroBanner_1920x540_FA.jpg')"></div>
                 </a>
             </li>
         </ul>
