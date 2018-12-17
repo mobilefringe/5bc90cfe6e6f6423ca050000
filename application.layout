@@ -199,6 +199,7 @@
                         </div>
                     </div>
 					<script type="text/javascript">
+					    var m = false;
                             function googleTranslateElementInit() {
                               new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,zh-CN,zh-TW,es,tl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-40014802-31'}, 'google_translate_element');
                             }
