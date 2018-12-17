@@ -205,8 +205,8 @@ function renderFeatureItems(){
     // var items = getFeatureList();
     var items = [];
     var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144060000/ABE_002_LargeSquareFeatureItems_940x940_FA_01.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144107000/ABE_002_SquareFeatureItems_470x470_FA_03.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144108000/ABE_002_SquareFeatureItems_470x470_FA_04.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144107000/ABE_002_SquareFeatureItems_470x470_FA_01.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144107000/ABE_002_SquareFeatureItems_470x470_FA_02.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144061000/ABE_002_LargeSquareFeatureItems_940x940_FA_02.jpg"]
-    var urls = ["/promotions", "/stores", "", "", "/hours", "/events"];
-    // var names = ["Promotions", "feature", "featurel", "feature4", "feature5", "feature6"];
+    var urls = ["/promotions", "/stores", "", "/contact-us", "/hours", "/events"];
+    var names = ["Promotions", "feature", "featurel", "feature4", "feature5", "feature6"];
     $.each(images, function(i, val){
         var item = {};
         // item.name = names[i];
