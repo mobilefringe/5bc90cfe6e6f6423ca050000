@@ -88,16 +88,16 @@
 </div>
 <div class="store_list_head main_container hidden_now" id="marketing">
     <div class="row hidden_phone">
-        <div class="col-md-3">
+        <div class="col-md-3  col-sm-3">
             <h5><a href="/contact-us" data-i18n="inside_page.contact_us"></a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  col-sm-3">
             <h5><a href="/leasing" data-i18n="inside_page.leasing"></a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  col-sm-3">
             <h5 ><a href="/pages/aberdeen-security" data-i18n="inside_page.security"></a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  col-sm-3">
             <h5 class="active_heading" data-i18n="inside_page.marketing"></h5>
         </div>
     </div>
