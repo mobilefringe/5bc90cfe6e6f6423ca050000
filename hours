@@ -4,10 +4,10 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6">
             <h5 class="active_heading" data-i18n="inside_page.hours"></h5>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6">
             <h5><a href="/pages/aberdeen-faq" data-i18n="inside_page.tourist_info"></a></h5>
         </div>
     </div>
