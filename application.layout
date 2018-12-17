@@ -202,6 +202,22 @@
 					    var m = false;
                         function googleTranslateElementInit() {
                           new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,zh-CN,zh-TW,es,tl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-40014802-31'}, 'google_translate_element');
+                          setTimeout(function(){
+                                    if ($( window ).width() < 768){
+                                        m = true;
+                                        $('#g_translater').detach().appendTo('#google_translate_element_m');                            
+                                    }
+                                }, 1500);
+                            }
+                            $( window ).resize(function() {
+                                if ($( window ).width() < 768 && m == false){
+                                    m = true;
+                                    $('#g_translater').detach().appendTo('#google_translate_element_m');                            
+                                } else if (jQuery( window ).width() >= 768 && m == true){
+                                    m = false;
+                                    $('#g_translater').detach().prependTo('#desktopHeader');                            
+                                }
+                            });
                         }
                         /*!
                          * Capture Analytics for Google Translate
