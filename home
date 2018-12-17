@@ -70,6 +70,11 @@
                 <div id="feature_1" class="position_relative"></div>
                 <div id="feature_2" class="position_relative"></div>
             </div>
+            <div class="feature_item" id="feature_item_2">
+                <div id="feature_3" class="position_relative"></div>
+                <div id="feature_4" class="position_relative"></div>
+                <div id="feature_5" class="position_relative"></div>
+            </div>
             <!--<div class="feature_item">-->
             
             <!--    <div id="feature_0" class="position_relative"></div>-->
