@@ -209,7 +209,7 @@ function renderFeatureItems(){
     var names = ["Promotions", "feature", "featurel", "feature4", "feature5", "feature6"];
     $.each(images, function(i, val){
         var item = {};
-        // item.name = names[i];
+        item.name = names[i];
         item.url = urls[i]
         item.image_url = val;
         items.push(item);
