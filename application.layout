@@ -218,7 +218,7 @@
                                     $('#g_translater').detach().prependTo('#desktopHeader');                            
                                 }
                             });
-                        }
+                        
                         /*!
                          * Capture Analytics for Google Translate
                          * As of 2016, the Google Translate toolbar still only works with the old-style analytics (ga.js)
