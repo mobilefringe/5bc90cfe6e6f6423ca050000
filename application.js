@@ -206,17 +206,18 @@ function renderFeatureItems(){
     var items = [];
     var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144060000/ABE_002_LargeSquareFeatureItems_940x940_FA_01.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144107000/ABE_002_SquareFeatureItems_470x470_FA_03.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144108000/ABE_002_SquareFeatureItems_470x470_FA_04.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144107000/ABE_002_SquareFeatureItems_470x470_FA_01.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144107000/ABE_002_SquareFeatureItems_470x470_FA_02.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/jpeg/1544144061000/ABE_002_LargeSquareFeatureItems_940x940_FA_02.jpg"]
     var urls = ["/promotions", "/stores", "", "", "/hours", "/events"];
-    var names = ["Promotions", "feature", "featurel", "feature4", "feature5", "feature6"];
+    // var names = ["Promotions", "feature", "featurel", "feature4", "feature5", "feature6"];
     $.each(images, function(i, val){
         var item = {};
-        item.name = names[i];
+        // item.name = names[i];
         item.url = urls[i]
         item.image_url = val;
         items.push(item);
     });
     $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
-            $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
+            // $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
+             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"></a>')
         } else if(Cookies.get('current_locale') == "fr-CA"){
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name_2 + '"><h5 class="center_h">'+ val.name_2 +'</h5></a>');
         }
