@@ -77,8 +77,8 @@
         <div class="feature_row">
             <div class="feature_item" id="feature_item_1">
                 <div id="feature_0" class="position_relative"></div>
+                <div id="feature_1" class="position_relative"></div>
                 <div id="feature_2" class="position_relative"></div>
-                <div id="feature_3" class="position_relative"></div>
             </div>
             <!--<div class="feature_item">-->
             
