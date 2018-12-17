@@ -75,6 +75,8 @@
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
+            <div class="feature_item">
+            </div>
             <!--<div class="feature_item">-->
             
             <!--    <div id="feature_0" class="position_relative"></div>-->
