@@ -206,7 +206,8 @@
                 }
                 
                 // show_content();
-                
+                var svg_width = 1080;
+                        var svg_height = 1224;
                 //MAP  
                 var stores = getStoresList();
                 var mall_json = {};
