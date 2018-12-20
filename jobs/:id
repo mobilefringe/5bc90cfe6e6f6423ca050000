@@ -20,10 +20,15 @@
                 <div class="col-md-8">
                     <div class="primary-locale">
                         <h2 class="promo_list_name">{{name}}</h2>
-                        <p>
+                        <p class="hidden_phone">
                             <span class="promo_store">{{store_name}}</span> |
                             <span class="promo_store">{{job_type}}</span> |
                             <span class="promo_dates">End Date: {{end_date}}</span>
+                        </p>
+                        <p class="show_phone">
+                            <span class="promo_store ">{{store_name}} </span>
+                            <span class="hidden_phone">|</span>
+                            <a href="/stores/{{store_slug}}" class="read_more newsletter_btn animated_btn" style="{{show_store}}">View Store Details</a>
                         </p>
                         <br>
                         <div class="details_desc">{{{rich_description}}}</div>
