@@ -27,7 +27,7 @@
                         </p>
                         <p class="show_phone">
                             <span class="promo_store">{{store_name}}</span>
-                            <span class="">{{job_type}}</span> <span>|</span> <span class="promo_dates">End Date: {{end_date}}</span>
+                            <span class="">{{job_type}}</span> <span>|</span> <span class="promo_dates" style="inline-bllock">End Date: {{end_date}}</span>
                         </p>
                         <br>
                         <div class="details_desc">{{{rich_description}}}</div>
