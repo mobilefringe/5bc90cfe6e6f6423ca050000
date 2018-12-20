@@ -271,6 +271,7 @@ function svgList() {
 }
         
 function dropPin(svgmap_region) {
+    console.log("svgmap_region", svgmap_region)
     self = map.data('mapplic');
     self.showLocation(svgmap_region);
     $('.stores_table').hide();
