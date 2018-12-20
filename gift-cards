@@ -19,8 +19,8 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/services" data-i18n="inside_page.services"></option>
-            <option value="/pages/aberdeen-act-green-initiatives" data-i18n="inside_page.act_green"></option>
-            <option value="/pages/aberdeen-in-the-community" data-i18n="inside_page.in_community"></option>
+            <option value="/pages/aberdeen-act-green-initiatives" data-i18n="inside_page.sponsorship"></option>
+            <option value="/pages/aberdeen-in-the-community" data-i18n="inside_page.community"></option>
         </select>
     </h5>
 </div>
