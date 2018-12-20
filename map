@@ -113,8 +113,8 @@
                     temp_val.pin = "hidden";
                    
                     //get svg's wifth/height by checking the map
-                    var svg_width = 840;
-                    var svg_height = 700;
+                    var svg_width = 1080;
+                    var svg_height = 1224;
 
                     if(val.x_coordinate) {
                         temp_val.x = val.x_coordinate / svg_width;
