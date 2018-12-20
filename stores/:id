@@ -207,13 +207,13 @@
                 
                 // show_content();
                 var svg_width = 1080;
-                        var svg_height = 1224;
+                var svg_height = 1224;
                 //MAP  
                 var stores = getStoresList();
                 var mall_json = {};
                 var landmarks = {};
-                mall_json.mapwidth = "1080";
-                mall_json.mapheight = "1224";
+                mall_json.mapwidth = svg_width;
+                mall_json.mapheight = svg_height;
                 mall_json.categories = [];
                 mall_json.levels = [];
     
