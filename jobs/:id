@@ -26,7 +26,7 @@
                             <span class="promo_dates">End Date: {{end_date}}</span>
                         </p>
                         <p class="show_phone">
-                            <span class="promo_store ">{{store_name}} </span>
+                            <span class="promo_store">{{store_name}}</span>
                             <span class="hidden_phone">|</span>
                             <a href="/stores/{{store_slug}}" class="read_more newsletter_btn animated_btn" style="{{show_store}}">View Store Details</a>
                         </p>
