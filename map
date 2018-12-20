@@ -94,6 +94,7 @@
                 } else {
                     stores_on_floors = _.filter(stores, function(o) { if(o.z_coordinate == null) {return true;} else { return value.z_index === o.z_coordinate; }});
                 }
+                console.log("stores_on_floors", stores_on_floors)
                 _.forEach(stores_on_floors, function(val, key) {
                     //for testing limiting the store numbers to vm
                     var temp_val = {};
