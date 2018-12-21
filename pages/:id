@@ -170,7 +170,7 @@
             
             if(){
                 $("#page_banner").addClass("main_banner");
-                $("#page_banner").addClass("inside_banner");
+                $("#page_banner").removeClass("inside_banner");
             }
             show_content();
         }
