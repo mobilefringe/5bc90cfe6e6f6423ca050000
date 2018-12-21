@@ -173,7 +173,7 @@
                 $("#page_banner").removeClass("inside_banner");
             }
             else {
-                $("#page_banner").addClass("main_banner");
+                $("#page_banner").removeClass("main_banner");
                 $("#page_banner").removeClass("inside_banner");
             }
             show_content();
