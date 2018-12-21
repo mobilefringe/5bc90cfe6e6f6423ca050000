@@ -174,7 +174,7 @@
             }
             else {
                 $("#page_banner").removeClass("main_banner");
-                $("#page_banner").removeClass("inside_banner");
+                $("#page_banner").addClass("inside_banner");
             }
             show_content();
         }
