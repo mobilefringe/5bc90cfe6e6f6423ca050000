@@ -167,6 +167,11 @@
             else if(slug == 'aberdeen-marketing-advertising') {
                 $("#marketing").show();
             }
+            
+            if(){
+                $("#page_banner").addClass("main_banner");
+                $("#page_banner").addClass("inside_banner");
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
