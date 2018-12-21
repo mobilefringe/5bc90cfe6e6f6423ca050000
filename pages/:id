@@ -168,7 +168,7 @@
                 $("#marketing").show();
             }
             
-            if(){
+            if(_.includes(['aberdeen-faq','aberdeen-community-bookings', 'aberdeen-sponsorships-donations', 'aberdeen-security', 'aberdeen-marketing-advertising'], slug)){
                 $("#page_banner").addClass("main_banner");
                 $("#page_banner").removeClass("inside_banner");
             }
