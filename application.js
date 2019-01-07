@@ -217,7 +217,12 @@ function renderFeatureItems(){
     $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
             // $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
+            if(item.name){
              $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"></a>')
+            }
+            else{
+                $('#feature_' + i).html('<img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '">')
+            }
         } else if(Cookies.get('current_locale') == "fr-CA"){
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name_2 + '"><h5 class="center_h">'+ val.name_2 +'</h5></a>');
         }
