@@ -217,7 +217,7 @@ function renderFeatureItems(){
     $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
             // $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
-            if(item.name){
+            if(items.name){
              $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"></a>')
             }
             else{
