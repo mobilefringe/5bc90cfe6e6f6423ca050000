@@ -1,4 +1,4 @@
-var default_image_url = "//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/png/1539965122715/aberdeen_defaultlogo.png"
+var default_image_url = "//codecloud.cdn.speedyrails.net/sites/5bc90cfe6e6f6423ca050000/image/png/1546964185000/aberdeenlogo.png"
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
     var item_rendered = [];
