@@ -159,7 +159,7 @@
 				$('.map_pin_a').click(function(e){
                     e.preventDefault();
                     var svgmap_region = $(this).attr('store_id');
-                    console.log("svgmap_region", svgmap_region)
+                    console.log("store_id", svgmap_region)
                     dropPin(svgmap_region);
                 });
                 
