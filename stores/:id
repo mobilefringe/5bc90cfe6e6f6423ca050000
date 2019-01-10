@@ -42,7 +42,7 @@
                             <a class="animated_btn newsletter_btn" href="tel:{{phone}}" style="{{phone_show}}">
                                 <span data-i18n="stores.store_phone"></span>: {{phone}}
                             </a>
-                            <a class="animated_btn newsletter_btn" href="//{{website}}" target="_blank" style="{{show}}">
+                            <a class="animated_btn newsletter_btn" href="http://{{website}}" target="_blank" style="{{show}}">
                                 <span data-i18n="stores.store_website"></span>
                             </a>
                             <div class="store_desc show_phone">
