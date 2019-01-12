@@ -243,11 +243,11 @@ function renderHomeHours(container, template, collection){
             var open_time = moment(val.open_time).tz(getPropertyTimeZone());
             var close_time = moment(val.close_time).tz(getPropertyTimeZone());
 
-            if(Cookies.get('current_locale') == "en-CA"){
+            // if(Cookies.get('current_locale') == "en-CA"){
                 val.h = val.day + " " + open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
-            } else if(Cookies.get('current_locale') == "fr-CA"){
-                val.h = val.day + " " + open_time.format("H") + "h" + open_time.format("mm") + " - " + close_time.format("H") + "h" + close_time.format("mm");
-            }
+            // } else if(Cookies.get('current_locale') == "fr-CA"){
+            //     val.h = val.day + " " + open_time.format("H") + "h" + open_time.format("mm") + " - " + close_time.format("H") + "h" + close_time.format("mm");
+            // }
         } else {
             if(Cookies.get('current_locale') == "en-CA"){
                 val.h = "Closed";
