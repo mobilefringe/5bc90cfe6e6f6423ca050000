@@ -279,6 +279,7 @@ function dropPin(svgmap_region) {
 
 function setCurrentLocale(locale){
     Cookies.set('current_locale', locale);
+    console.log("lang", Cookies.get('current_locale', locale))
 }
 
 function setPrimaryLanguage(){
