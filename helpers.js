@@ -16,9 +16,9 @@ function init(e){
     
     // If there is no language set it to the primary locale.
     // log(Cookies.get('current_locale'))
-    // if (!Cookies.get('current_locale')) {
+    if (!Cookies.get('current_locale')) {
         setPrimaryLanguage();
-    // }
+    }
     
     if(Cookies.get('current_locale') == "en-CA"){
         $("#set_lang_fr").css({fontWeight: "normal"});
