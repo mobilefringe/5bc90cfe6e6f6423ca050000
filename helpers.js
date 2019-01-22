@@ -286,7 +286,7 @@ function setPrimaryLanguage(){
     // i18n.setLng(Cookies.get('primary_locale'), function(t) {
     //     $(document).i18n();
     // });
-    // Cookies.set('current_locale', Cookies.get('primary_locale'))
+    Cookies.set('current_locale', Cookies.get('primary_locale'))
     $('.primary-locale').show(); // Shows
     $('.secondary-locale').hide();
 }
