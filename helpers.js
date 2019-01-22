@@ -19,7 +19,7 @@ function init(e){
     // if (!Cookies.get('current_locale')) {
     //     setPrimaryLanguage();
     // }
-    
+    c
     if(Cookies.get('current_locale') == "en-CA"){
         $("#set_lang_fr").css({fontWeight: "normal"});
         $("#set_lang_fr_m").css({fontWeight: "normal"});
