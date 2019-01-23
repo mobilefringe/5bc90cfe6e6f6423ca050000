@@ -164,7 +164,7 @@
       					<a href="?locale=fr" id="set_lang_fr_m">FR</a>
 					</div>
                     <p class="hours_home hidden_phone"><span class="hours_dot"></span> 
-                        <span data-i18n="header.todays_hours"></span>
+                        Today's Hours
                         <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
                                 <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
