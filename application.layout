@@ -164,7 +164,7 @@
       					<a href="?locale=fr" id="set_lang_fr_m">FR</a>
 					</div>
                     <p class="hours_home hidden_phone"><span class="hours_dot"></span> 
-                        Today's Hours
+                        Today's Hours:
                         <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
                                 <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
@@ -238,7 +238,7 @@
                 <div class="col-xs-12 show_phone home_hours_phone">
                     <p class="hours_home">
                         <span class="hours_dot"></span>
-                        Today's Hours
+                        Today's Hours:
                         <span id="home_hours_container3">
                             <script id="home_hours_template3" type="x-tmpl-mustache/text">
                                 <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
