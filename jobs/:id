@@ -71,10 +71,10 @@
                             Visit Store Details
                         </a>
                         <a href="tel:{{phone}}" class="animated_btn newsletter_btn" style="{{phone_show}}">
-                            <span data-i18n="stores.store_phone"></span>: {{phone}}
+                            Phone: {{phone}}
                         </a>
                         <a href="//{{website}}" target="_blank" class="animated_btn newsletter_btn" style="{{website_show}}">
-                            <span data-i18n="stores.store_website"></span>
+                            Website
                         </a>
                     </div>
                     <div class="share_container">
