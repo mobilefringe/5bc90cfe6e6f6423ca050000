@@ -171,7 +171,7 @@
                             </script>
                         </span>
                     </p>
-                    <a href="/hours" class="holiday_hours_home soft_hidden_phone" data-i18n="header.check_hours"></a>
+                    <a href="/hours" class="holiday_hours_home soft_hidden_phone">View Holiday Hours</a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-2 show_phone"></div>
                 <div class="col-md-4 col-sm-4 col-xs-8 text-center">
