@@ -66,81 +66,81 @@
     <div class="mobile_menu_container">
         <div class="opened_mobile_menu">
             <h3>
-                <span data-i18n="nav.menu"></span>
+                Menu
                 <span id="close_menu" class="pull-right"><img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166976000/close_menu.png"  alt="Close Menu"></span>        
             </h3>
             <ul>
                 <li>
                     <a href="#" class="submenu_expander open">
-                        <span data-i18n="nav.stores"></span>
+                        Stores
                         <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: none;">
 						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: inline;">
                     </a>
                     <ul class="sub_menu">
-						<li><a href="/stores" data-i18n="nav.subnav.directory"></a></li>
-						<li><a href="/map" data-i18n="nav.subnav.map"></a></li>
+						<li><a href="/stores">Directory</a></li>
+						<li><a href="/map">Shopping Map</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
-                        <span data-i18n="nav.special_offers"></span>
+                         Special Offers
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/promotions" data-i18n="nav.subnav.promos"></a></li>
-                        <li><a href="events" data-i18n="nav.subnav.events"></a></li>
+                        <li><a href="/promotions">Promotions</a></li>
+                        <li><a href="events">Events</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
-                        <span data-i18n="nav.guest_services"></span>
+                        Guest Services
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
-                        <li><a href="/pages/aberdeen-community-bookings" data-i18n="nav.subnav.community"></a></li>
-                        <li><a href="/pages/aberdeen-sponsorships-donations" data-i18n="nav.subnav.sponsorship"></a></li>
+                        <li><a href="/gift-cards">Gift Cards</a></li>
+                        <li><a href="/pages/aberdeen-community-bookings">Community Bookings</a></li>
+                        <li><a href="/pages/aberdeen-sponsorships-donations">Sponsorship & Donations</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
-                        <span data-i18n="nav.mall_services"></span>
+                        Mall Services
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/pages/aberdeen-guest-services" data-i18n="nav.subnav.services"></a></li>
+                        <li><a href="/pages/aberdeen-guest-services">Services & Accessibility</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
-                        <span data-i18n="nav.plan_your_visit"></span>
+                        Plan Your Visit
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/hours" data-i18n="nav.subnav.hours"></a></li>
-                        <li><a href="/pages/aberdeen-faq" data-i18n="nav.subnav.tourist_info"></a></li>
+                        <li><a href="/hours">Shopping Hours</a></li>
+                        <li><a href="/pages/aberdeen-faq">FAQ</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
-                        <span data-i18n="nav.contact_us"></span>
+                        Contact Us
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/contact-us" data-i18n="nav.subnav.contact_us"></a></li>
-                        <li><a href="/leasing" data-i18n="nav.subnav.leasing"></a></li>
-                        <li><a href="/pages/aberdeen-security" data-i18n="nav.subnav.security"></a></li>
-                        <li><a href="/pages/aberdeen-marketing-advertising" data-i18n="nav.subnav.marketing"></a></li>
+                        <li><a href="/contact-us">Contact Us</a></li>
+                        <li><a href="/leasing">Leasing</a></li>
+                        <li><a href="/pages/aberdeen-security">Security</a></li>
+                        <li><a href="/pages/aberdeen-marketing-advertising">Marketing & Advertising</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="/jobs">
-                        <span data-i18n="nav.careers"></span>
+                        Careers
                     </a>
                 </li>
             </ul>
