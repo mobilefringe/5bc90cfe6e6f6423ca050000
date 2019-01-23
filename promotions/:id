@@ -1,15 +1,15 @@
 <div class="main_banner text-center">
-    <h2 data-i18n="promos.title"></h2>
+    <h2>Promotions</h2>
     <p>EXPLORE • ENJOY • SHOP</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-12">
-            <h5 class="active_heading"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/promotions" data-i18n="promos.return"></a></h5>
+            <h5 class="active_heading"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/promotions">Return to Promotions</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
-        <i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/promotions" data-i18n="promos.return"></a>
+        <i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/promotions">Return to Promotions</a>
     </h5>
 </div>
 <div class="content_container main_container">
@@ -39,7 +39,7 @@
                         <div class="details_desc">{{{rich_description_2}}}</div>
                     </div>
                     <div class="mobile_share_container">
-                        <span data-i18n="inside_page.share"></span>
+                        Share:
                         <a href="https://www.facebook.com/sharer.php?u=https://aberdeenmall.ca/promotions/{{slug}}" target="_blank">
                             <i class="fa fa-facebook-square"></i>
                             <p class="accessibility">Facebook</p>
@@ -54,17 +54,17 @@
                     <img src="{{store_image}}" alt="{{store_name}} Logo" class="store_logo" />
                     <div class="side_stores">
                         <a class="animated_btn newsletter_btn" href="/stores/{{store_slug}}" style="{{store_show}}">
-                            <span data-i18n="stores.store_details"></span>
+                            Visit Store Details
                         </a>
                         <a class="animated_btn newsletter_btn" href="tel:{{phone}}" style="{{phone_show}}">
-                            <span data-i18n="stores.store_phone"></span>: {{phone}}
+                            Phone: {{phone}}
                         </a>
                         <a class="animated_btn newsletter_btn" href="//{{website}}" target="_blank" style="{{show}}">
-                            <span data-i18n="stores.store_website"></span>
+                            Website
                         </a>
                     </div>
                     <div class="share_container">
-                        <span data-i18n="inside_page.share"></span>
+                        Share:
                         <a href="https://www.facebook.com/sharer.php?u=https://aberdeenmall.ca/promotions/{{slug}}" target="_blank">
                             <i class="fa fa-facebook-square"></i>
                             <p class="accessibility">Facebook</p>
