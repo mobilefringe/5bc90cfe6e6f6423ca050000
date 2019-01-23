@@ -1,21 +1,21 @@
 <div class="main_banner text-center">
-    <h2 data-i18n="events.title"></h2>
+    <h2>Events</h2>
     <p>EXPLORE • ENJOY • SHOP</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-6 col-sm-6">
-            <h5><a href="/promotions" data-i18n="inside_page.promos"></a></h5>
+            <h5><a href="/promotions">Promotions</a></h5>
         </div>
         <div class="col-md-6 col-sm-6">
-            <h5 class="active_heading" data-i18n="inside_page.events"></h5>
+            <h5 class="active_heading">Events</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>Tap For More Options</option>
-            <option value="/promotions" data-i18n="inside_page.promotions"></option>
+            <option value="/promotions">Promotions</option>
         </select>
     </h5>
 </div>
@@ -72,7 +72,7 @@
         </div>
         <div class="row hidden_now" id="no_events">
             <div class="col-md-12">
-                <p data-i18n="events.no_events"></p>
+                <p>There are no Events scheduled at this time. Please check back soon!</p>
             </div>
         </div>
     </div>
