@@ -238,14 +238,14 @@
                 <div class="col-xs-12 show_phone home_hours_phone">
                     <p class="hours_home">
                         <span class="hours_dot"></span>
-                        <span data-i18n="header.todays_hours"></span>
+                        Today's Hours
                         <span id="home_hours_container3">
                             <script id="home_hours_template3" type="x-tmpl-mustache/text">
                                 <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
                             </script>
                         </span>
                     </p>
-                    <a class="holiday_hours_home" href="/hours" data-i18n="header.check_hours"></a>
+                    <a class="holiday_hours_home" href="/hours">View Holiday Hours</a>
                 </div>
             </div>
             <div class="hedaer_divider"></div>
@@ -258,19 +258,18 @@
 
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
-            <h3 class="heading" data-i18n="footer.newsletter_title"></h3>
-            <p class="newsletter_desc" data-i18n="footer.newsletter_tagline"></p>
-            <a href="/newsletter" class="newsletter_btn animated_btn" data-i18n="footer.newsletter_submit"></a>
+            <h3 class="heading">Subscribe to Receive Our Updates</h3>
+            <p class="newsletter_desc">Fashion • Events • Sales</p>
+            <a href="/newsletter" class="newsletter_btn animated_btn">Sign Up</a>
         </div>
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4">
                     <div class="">
-                        <h3 class="site_map_heading" data-i18n="footer.social_title"></h3>
-                        <p class="site_map_desc" data-i18n="footer.social_subtitle"></p>
+                        <h3 class="site_map_heading">Social Media</h3>
+                        <p class="site_map_desc">Follow us on social media for news and activities.</p>
                         <div class="social_icons">
                             <a href="https://www.facebook.com/aberdeenmall/" target="_blank">
-                                <!--<span id="social_fb"></span>-->
                                 <span><i class="fa fa-facebook"></i></span>
                                 <p style="display: none;">Facebook</p>
                             </a>
@@ -282,10 +281,6 @@
                                 <span><i class="fa fa-instagram"></i></span>
                                 <p style="display: none;">Instagram</p>
                             </a>
-                            <!--<a href="/newsletter">-->
-                            <!--    <span id="social_newsletter"></span>-->
-                            <!--    <p style="display: none;">Newsletter</p>-->
-                            <!--</a>-->
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
                         </div>
@@ -293,15 +288,15 @@
                     </div>
                 </div>
                 <div class="col-md-4 left_right_border">
-                    <h3 class="site_map_heading" data-i18n="footer.site_map"></h3>
+                    <h3 class="site_map_heading">Site Map</h3>
                     <div class="row footer_site_map">
                         <div class="col-md-6 col-xs-6">
                             <ul>
-                                <li><a href="/stores" data-i18n="nav.subnav.directory"></a></li>
-                                <li><a href="/map" data-i18n="nav.subnav.map"></a></li>
-                                <li><a href="/events" data-i18n="nav.subnav.events"></a></li>
-                                <li><a href="/promotions" data-i18n="nav.subnav.promos"></a></li>
-                                <li><a href="/jobs" data-i18n="nav.careers"></a></li>
+                                <li><a href="/stores">Directory</a></li>
+                                <li><a href="/map">Shopping Map</a></li>
+                                <li><a href="/events">Events</a></li>
+                                <li><a href="/promotions">Promotions</a></li>
+                                <li><a href="/jobs">Careers</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-xs-6">
