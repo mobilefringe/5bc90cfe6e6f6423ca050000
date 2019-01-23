@@ -80,8 +80,8 @@
 <script>
     $(document).ready(function(e){
         console.log("document ready")
-        // init(e);
-//        function renderAll(){
+        init(e);
+        function renderAll(){
             var banners = getBanners();
             renderBanner('#banner_template','#home_banner',banners);
             var property = [getPropertyDetails()];
@@ -116,7 +116,7 @@
 		        $('body').removeClass('no_scroll');
             });
         }
-       // loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
     });
     
     function render_social(){
