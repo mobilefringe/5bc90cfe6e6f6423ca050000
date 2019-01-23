@@ -116,7 +116,7 @@
 		        $('body').removeClass('no_scroll');
             });
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     });
     
     function render_social(){
