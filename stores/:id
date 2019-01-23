@@ -8,14 +8,14 @@
             <div class="store_list_head">
                 <div class="row">
                     <div class="col-md-12 store_top">
-                        <h5 class="back_btn show_phone"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/stores" class="store_anchors active_heading"><span data-i18n="stores.back_btn"></span></a></h5>
-                        <span class="soft_hidden_phone store_anchors active_heading"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/stores"><span data-i18n="stores.back_btn"></span></a></span>
+                        <h5 class="back_btn show_phone"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/stores" class="store_anchors active_heading">Back to Stores</a></h5>
+                        <span class="soft_hidden_phone store_anchors active_heading"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/stores">Back to Stores</a></span>
                         <div class="store_details_anchors pull-right">
                             <a id="promo_anchor" href="#promos_main" class="store_anchors active_heading">
-                                <span data-i18n="stores.store_promo"></span> (<span></span>)
+                                Promotions (<span></span>)
                             </a>
                             <a id="job_anchor" href="#jobs_main" class="store_anchors active_heading">
-                                <span data-i18n="stores.store_job"></span> (<span></span>)
+                                Careers (<span></span>)
                             </a>
                         </div>
                     </div>
@@ -40,10 +40,10 @@
                         <img class="margin_20 store_logo center-block" src="{{store_front_url_abs}}"/>
                         <div class="side_stores">
                             <a class="animated_btn newsletter_btn" href="tel:{{phone}}" style="{{phone_show}}">
-                                <span data-i18n="stores.store_phone"></span>: {{phone}}
+                                Phone: {{phone}}
                             </a>
                             <a class="animated_btn newsletter_btn" href="http://{{website}}" target="_blank" style="{{show}}">
-                                <span data-i18n="stores.store_website"></span>
+                                Website
                             </a>
                             <div class="store_desc show_phone">
                                 <div class="margin_20 primary-locale">{{{rich_description}}}</div>
@@ -60,9 +60,7 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-8 promo_item" id="promos_main">
-                <h2 class="store_details_promo_heading">
-                    <span data-i18n="stores.store_promo"></span>
-                </h2>
+                <h2 class="store_details_promo_heading">Promotions</h2>
                 <div id="promos_container">
                     <script id="promos_template" type="x-tmpl-mustache/text">
                         <div class="row promo_item">
@@ -97,9 +95,7 @@
                 </div>
             </div>
             <div class="col-md-8 promo_item" id="jobs_main">
-                <h2 class="store_details_promo_heading">
-                    <span data-i18n="stores.store_job"></span>
-                </h2>
+                <h2 class="store_details_promo_heading">Careers</h2>
                 <div id="jobs_container">
                     <script id="jobs_template" type="x-tmpl-mustache/text">
                         <div class="row promo_item">
