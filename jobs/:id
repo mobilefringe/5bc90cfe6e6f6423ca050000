@@ -68,7 +68,7 @@
                     <img src="{{store_image}}" alt="{{store_name}} Logo" class="store_logo" />
                     <div class="side_stores">
                         <a href="/stores/{{store_slug}}" class="animated_btn newsletter_btn" style="{{store_link_show}}">
-                            <span data-i18n="stores.store_details"></span>
+                            Visit Store Details
                         </a>
                         <a href="tel:{{phone}}" class="animated_btn newsletter_btn" style="{{phone_show}}">
                             <span data-i18n="stores.store_phone"></span>: {{phone}}
