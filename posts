@@ -20,7 +20,7 @@
 <!--    <h5 class="text-center tap_here show_phone">-->
 <!--        <label class="accessibility" for="option_selector">Select an Option</label>-->
 <!--        <select id="option_selector" class="link_selector">-->
-<!--            <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>-->
+<!--            <option value="" disabled selected>Tap For More Options</option>-->
 <!--            <option value="/events" data-i18n="inside_page.events"></option>-->
 <!--            <option value="/promotions" data-i18n="inside_page.deals"></option>-->
 <!--            <option value="/jobs" data-i18n="inside_page.careers"></option>-->
