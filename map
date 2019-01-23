@@ -1,21 +1,21 @@
 <div class="main_banner text-center">
-    <h2 data-i18n="map.title"></h2>
+    <h2>Shopping Map</h2>
     <p>EXPLORE • ENJOY • SHOP</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-6 col-sm-6">
-            <h5><a href="/stores" data-i18n="inside_page.stores"></a></h5>
+            <h5><a href="/stores">Stores</a></h5>
         </div>
         <div class="col-md-6 col-sm-6">
-            <h5 class="active_heading" data-i18n="inside_page.map"></h5>
+            <h5 class="active_heading" data-i18n="inside_page.map">Shopping Map</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>Tap For More Options</option>
-            <option value="/stores" data-i18n="inside_page.stores"></option>
+            <option value="/stores">Stores</option>
         </select>
     </h5>
 </div>
