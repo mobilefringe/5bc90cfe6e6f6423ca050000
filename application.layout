@@ -301,10 +301,10 @@
                         </div>
                         <div class="col-md-6 col-xs-6">
                             <ul>
-                                <li><a href="/hours" data-i18n="nav.subnav.hours"></a></li>
-                                <li><a href="/pages/aberdeen-gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
-                                <li><a href="/contact-us" data-i18n="nav.subnav.contact_us"></a></li>
-                                <li><a href="/leasing" data-i18n="nav.subnav.leasing"></a></li>
+                                <li><a href="/hours">Shopping Hours</a></li>
+                                <li><a href="/pages/aberdeen-gift-cards">Gift Cards</a></li>
+                                <li><a href="/contact-us">Contact Us</a></li>
+                                <li><a href="/leasing">Leasing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -317,20 +317,17 @@
                             Kamloops, BC V1S 1J2
                         </a>
                         <br/>
-                        <!--<span data-i18n="footer.contact"></span>: <a href="tel:506 546-9194">(506) 546-9194</a><br />-->
                         <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
                             <img src="//codecloud.cdn.speedyrails.net/sites/59c3f9f46e6f646526050000/image/png/1509381758000/CW Logos-_CW_Colorlogo.png" class="management_logo" alt="Cushman & Wakefield Logo">
                         </a>
                     </p>
                     <p class="rights_reserved">
-                        <span data-i18n="footer.power"></span> <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
+                        Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
                     </p>
-                    
                 </div>
             </div>
         </div>
     </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.11.5/i18next.min.js"></script>
 </body>
 
 </html>
