@@ -1,4 +1,5 @@
 function init(e){
+    console.log("INIT")
     $('<div class="modal-backdrop custom_backdrop_load"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
     $('.open_menu').click(function(e){
