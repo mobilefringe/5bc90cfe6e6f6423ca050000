@@ -1,32 +1,7 @@
 <div class="main_banner text-center">
-    <h2 data-i18n="blog.title"></h2>
+    <h2>Blog</h2>
     <p>EXPLORE • ENJOY • SHOP</p>
 </div>
-<!--<div class="store_list_head main_container">-->
-<!--    <div class="row hidden_phone">-->
-<!--        <div class="col-md-3">-->
-<!--            <h5 class="active_heading" data-i18n="inside_page.blog"></h5>-->
-<!--        </div>-->
-<!--        <div class="col-md-3">-->
-<!--            <h5><a href="/events" data-i18n="inside_page.events"></a></h5>-->
-<!--        </div>-->
-<!--        <div class="col-md-3">-->
-<!--            <h5><a href="/promotions" data-i18n="inside_page.deals"></a></h5>-->
-<!--        </div>-->
-<!--        <div class="col-md-3">-->
-<!--            <h5><a href="/jobs" data-i18n="inside_page.careers"></a></h5>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <h5 class="text-center tap_here show_phone">-->
-<!--        <label class="accessibility" for="option_selector">Select an Option</label>-->
-<!--        <select id="option_selector" class="link_selector">-->
-<!--            <option value="" disabled selected>Tap For More Options</option>-->
-<!--            <option value="/events" data-i18n="inside_page.events"></option>-->
-<!--            <option value="/promotions" data-i18n="inside_page.deals"></option>-->
-<!--            <option value="/jobs" data-i18n="inside_page.careers"></option>-->
-<!--        </select>-->
-<!--    </h5>-->
-<!--</div>-->
 <div class="margin_20"></div>
 <div class="content_container main_container">
     <div class="margin_25_across">
