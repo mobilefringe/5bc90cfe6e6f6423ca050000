@@ -1,4 +1,5 @@
 function init(e){
+    console.log("INIT")
     $('<div class="modal-backdrop custom_backdrop_load"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
     $('.open_menu').click(function(e){
@@ -63,7 +64,6 @@ function show_content(){
     var d = new Date();
     var n = d.getDay();
     var today_hours = getTodaysHours();
-    console.log("today_hours", today_hours)
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
     $.each( getPropertyHours(), function(i,v){
         if(v.is_closed == true){
@@ -167,29 +167,56 @@ function show_cat_stores(){
 
 function getDay(day_of_week){
     var day;
-    switch (day_of_week){
-        case 0:
-            day = "Sunday";
-            break;
-        case 1:
-            day = "Monday";
-            break;
-        case 2:
-            day = "Tuesday";
-            break;
-        case 3:
-            day = "Wednesday";
-            break;
-        case 4:
-            day = "Thursday";
-            break;
-        case 5:
-            day = "Friday";
-            break;
-        case 6:
-            day = "Saturday";
-            break;
+    if(Cookies.get('current_locale') == "en-CA"){
+        switch (day_of_week){
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+        }
     }
+    if(Cookies.get('current_locale') == "fr-CA"){
+        switch (day_of_week){
+            case 0:
+                day = "Dimanche";
+                break;
+            case 1:
+                day = "Lundi";
+                break;
+            case 2:
+                day = "Mardi";
+                break;
+            case 3:
+                day = "Mercredi";
+                break;
+            case 4:
+                day = "Jeudi";
+                break;
+            case 5:
+                day = "Vendredi";
+                break;
+            case 6:
+                day = "Samedi";
+                break;
+        }
+    } 
     return day;
 }
 
