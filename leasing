@@ -1,29 +1,29 @@
 <div class="inside_banner text-center">
-    <h2 data-i18n="inside_page.leasing"></h2>
+    <h2>Leasing</h2>
     <p>EXPLORE • ENJOY • SHOP</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-3 col-sm-3">
-             <h5><a href="/contact-us" data-i18n="inside_page.contact_us"></a></h5>
+             <h5><a href="/contact-us">Contact Us</a></h5>
         </div>
         <div class="col-md-3 col-sm-3">
-            <h5 class="active_heading" data-i18n="inside_page.leasing"></h5>
+            <h5 class="active_heading">Leasing</h5>
         </div>
         <div class="col-md-3 col-sm-3">
-            <h5><a href="/pages/aberdeen-security" data-i18n="inside_page.security"></a></h5>
+            <h5><a href="/pages/aberdeen-security">Security</a></h5>
         </div>
         <div class="col-md-3 col-sm-3">
-            <h5><a href="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></a></h5>
+            <h5><a href="/pages/aberdeen-marketing-advertising">Marketing</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>Tap For More Options</option>
-            <option value="/contact-us" data-i18n="inside_page.contact_us"></option>
-            <option value="/pages/aberdeen-security" data-i18n="inside_page.security"></option>
-            <option value="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></option>
+            <option value="/contact-us">Contact Us</option>
+            <option value="/pages/aberdeen-security">Security</option>
+            <option value="/pages/aberdeen-marketing-advertising">Marketing</option>
         </select>
     </h5>
 </div>
@@ -57,6 +57,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             });  
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
