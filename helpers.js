@@ -1,5 +1,4 @@
 function init(e){
-    console.log("init")
     $('<div class="modal-backdrop custom_backdrop_load"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
     $('.open_menu').click(function(e){
@@ -48,6 +47,7 @@ function init(e){
     $('.link_selector').change(function(){
         window.location = $(this).val();
     });
+    
     //dynamically changing copyright year
     var current_year = moment().year();
     $("#current_year").text(current_year);
@@ -56,7 +56,7 @@ function init(e){
 function show_content(){
     setTimeout(function() {
         var scrolled = 0;
-        $(".yield").css({visibility: "visible"});
+        $(".yield").css({ visibility: "visible" });
         $(".custom_backdrop_load").remove();
     }, 800);
     
@@ -85,16 +85,14 @@ function show_content(){
     });
     
     $('#stores_container').scroll(function(){
-        if( $(this).scrollTop() == 0){
+        if ( $(this).scrollTop() == 0) {
             $('#store_scroll_up').css('display', 'none')
-        }
-        else{
+        } else {
             $('#store_scroll_up').css('display', 'block')
         }
-        if($('#stores_container')[0].scrollHeight == ($('#stores_container').scrollTop() + $('#stores_container').height()) ){
+        if ($('#stores_container')[0].scrollHeight == ($('#stores_container').scrollTop() + $('#stores_container').height()) ) {
             $('#store_scroll_down').css('display', 'none')
-        }
-        else{
+        } else {
             $('#store_scroll_down').css('display', 'block')
         }
     })
@@ -166,8 +164,6 @@ function show_cat_stores(){
     
 }
 
-
-    
 function getDay(day_of_week){
     var day;
     if(Cookies.get('current_locale') == "en-CA"){
