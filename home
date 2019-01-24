@@ -86,7 +86,6 @@
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
-            console.log("today_hours", today_hours)
             renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours);
             
             $('.flexslider').flexslider({
