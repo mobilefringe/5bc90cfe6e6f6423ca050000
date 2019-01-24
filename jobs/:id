@@ -1,15 +1,15 @@
 <div class="main_banner text-center">
-    <h2 data-i18n="jobs.title"></h2>
+    <h2>Careers</h2>
     <p>EXPLORE • ENJOY • SHOP</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-12">
-            <h5 class="active_heading"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/jobs" data-i18n="jobs.return"></a></h5>
+            <h5 class="active_heading"><i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/jobs">Return to Careers</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
-        <i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/jobs" data-i18n="jobs.return"></a>
+        <i class="fa fa-angle-left" aria-hidden="true"></i> <a href="/jobs">Return to Careers</a>
     </h5>
 </div>
 <div class="margin_20"></div>
@@ -18,40 +18,25 @@
         <div class="row" id="promo_details_container">
             <script id="promo_details_template" type="x-tmpl-mustache/text">
                 <div class="col-md-8">
-                    <div class="primary-locale">
-                        <h2 class="promo_list_name">{{name}}</h2>
-                        <p class="hidden_phone">
-                            <span class="promo_store">{{store_name}}</span> |
-                            <span class="promo_store">{{job_type}}</span> |
-                            <span class="promo_dates">End Date: {{end_date}}</span>
-                        </p>
-                        <p class="show_phone">
-                            <span class="promo_store">{{store_name}}</span>
-                            <span class="">{{job_type}}</span> <span>|</span> <span class="promo_dates" style="display:inline-block">End Date: {{end_date}}</span>
-                        </p>
-                        <br>
-                        <div class="details_desc">{{{rich_description}}}</div>
-                        {{#contact_name}}<p>Contact Name: {{contact_name}}</p>{{/contact_name}}
-                        {{#contact_email}}<p>Contact Email: {{contact_email}}</p>{{/contact_email}}
-                        {{#contact_phone}}<p>Contact Phone: {{contact_phone}}</p>{{/contact_phone}}
-                        {{#contact_website}}<p>Website: {{contact_website}}</p>{{/contact_website}}
-                        {{#message}}<p>Message: {{message}}</p>{{/message}}
-                    </div>
-                    <div class="secondary-locale">
-                        <h2 class="promo_list_name">{{name_2}}</h2>
-                        <p>
-                            <span class="promo_store">{{store_name}}</span> |
-                            <span class="promo_store">{{job_type}}</span> |
-                            <span class="promo_dates">Date de fin: {{end_date}}</span>
-                        </p>
-                        <br>
-                        <div class="details_desc">{{{rich_description_2}}}</div>
-                        {{#contact_name}}<p>Nom du contact: {{contact_name}}</p>{{/contact_name}}
-                        {{#contact_email}}<p>Email du contact: {{contact_email}}</p>{{/contact_email}}
-                        {{#contact_phone}}<p>Numéro du contact: {{contact_phone}}</p>{{/contact_phone}}
-                        {{#contact_website}}<p>Site Web: {{contact_website}}</p>{{/contact_website}}
-                        {{#message_2}}<p>Message: {{message_2}}</p>{{/message_2}}
-                    </div>
+                    <h2 class="promo_list_name">{{name}}</h2>
+                    <p class="hidden_phone">
+                        <span class="promo_store">{{store_name}}</span> |
+                        <span class="promo_store">{{job_type}}</span> |
+                        <span class="promo_dates">End Date: {{end_date}}</span>
+                    </p>
+                    <p class="show_phone">
+                        <span class="promo_store">{{store_name}}</span>
+                        <span class="">{{job_type}}</span> 
+                        <span>|</span> 
+                        <span class="promo_dates" style="display:inline-block">End Date: {{end_date}}</span>
+                    </p>
+                    <br>
+                    <div class="details_desc">{{{rich_description}}}</div>
+                    {{#contact_name}}<p>Contact Name: {{contact_name}}</p>{{/contact_name}}
+                    {{#contact_email}}<p>Contact Email: {{contact_email}}</p>{{/contact_email}}
+                    {{#contact_phone}}<p>Contact Phone: {{contact_phone}}</p>{{/contact_phone}}
+                    {{#contact_website}}<p>Website: {{contact_website}}</p>{{/contact_website}}
+                    {{#message}}<p>Message: {{message}}</p>{{/message}}
                     <div class="mobile_share_container">
                         Share:
                         <a href="https://www.facebook.com/sharer.php?u=https://aberdeenmall.ca/jobs/{{slug}}" target="_blank">
