@@ -17,27 +17,15 @@
         <div class="row" id="promo_details_container">
             <script id="promo_details_template" type="x-tmpl-mustache/text">
                 <div class="col-md-8">
-                    <div class="primary-locale">
-                        <img src="{{image_url}}" alt="Store Logo" class="details_image" style="{{show_img}}" />
-                        <h2 class="promo_list_name">{{name}}</h2>
-                        <p class="promo_dates">{{dates}}</p>
-                        <p class="show_phone">
-                            <span class="promo_store ">{{store_name}} </span>
-                            <span class="hidden_phone">|</span>
-                            <a href="/stores/{{store_slug}}" class="read_more newsletter_btn animated_btn" style="{{show_store}}">View Store Details</a>
-                        </p>
-                        <div class="details_desc">{{{rich_description}}}</div>
-                    </div>
-                    <div class="secondary-locale">
-                        <img src="{{image_url}}" alt="{{name_2}}" class="details_image" style="{{show_img}}" />
-                        <h2 class="promo_list_name">{{name_2}}</h2>
-                        <p class="promo_dates">{{dates}}</p>
-                        <p class="show_phone">
-                            <span class="promo_store ">{{store_name}} </span>
-                            | <a href="/stores/{{store_slug}}" class="read_more" style="{{show_store}}">Détails du magasin</a>
-                        </p>
-                        <div class="details_desc">{{{rich_description_2}}}</div>
-                    </div>
+                    <img src="{{image_url}}" alt="Store Logo" class="details_image" style="{{show_img}}" />
+                    <h2 class="promo_list_name">{{name}}</h2>
+                    <p class="promo_dates">{{dates}}</p>
+                    <p class="show_phone">
+                        <span class="promo_store ">{{store_name}} </span>
+                        <span class="hidden_phone">|</span>
+                        <a href="/stores/{{store_slug}}" class="read_more newsletter_btn animated_btn" style="{{show_store}}">View Store Details</a>
+                    </p>
+                    <div class="details_desc">{{{rich_description}}}</div>
                     <div class="mobile_share_container">
                         Share:
                         <a href="https://www.facebook.com/sharer.php?u=https://aberdeenmall.ca/promotions/{{slug}}" target="_blank">
