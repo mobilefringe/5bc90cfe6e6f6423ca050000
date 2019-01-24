@@ -58,7 +58,7 @@ function show_content(){
         var scrolled = 0;
         $(".yield").css({ visibility: "visible" });
         $(".custom_backdrop_load").remove();
-    }, 800);
+    }, 500);
     
     var d = new Date();
     var n = d.getDay();
