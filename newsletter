@@ -52,15 +52,15 @@ $(document).ready(function(e){
             }
         }
         
-        var prefix = get_prefix();
-        var pages_json = prefix + "/pages/aberdeen-newsletter.json"
-        $.getJSON(pages_json).done(function(data) {
-            $('#mm_page_content').html(data.body);
-        }).fail(function(jqXHR) {
-            if (jqXHR.status == 404) {
-                $("#404_msg").fadeIn("fast");
-            }
-        });
+        // var prefix = get_prefix();
+        // var pages_json = prefix + "/pages/aberdeen-newsletter.json"
+        // $.getJSON(pages_json).done(function(data) {
+        //     $('#mm_page_content').html(data.body);
+        // }).fail(function(jqXHR) {
+        //     if (jqXHR.status == 404) {
+        //         $("#404_msg").fadeIn("fast");
+        //     }
+        // });
             
         show_content();
     }
