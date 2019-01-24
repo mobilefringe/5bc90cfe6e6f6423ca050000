@@ -73,7 +73,7 @@
             <h5 class="active_heading">Security</h5>
         </div>
         <div class="col-md-3  col-sm-3">
-            <h5><a href="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></a></h5>
+            <h5><a href="/pages/aberdeen-marketing-advertising">Marketing</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -82,7 +82,7 @@
             <option value="" disabled selected>Tap For More Options</option>
             <option value="/leasing">Leasing</option>
             <option value="/contact-us">Contact Us</option>
-            <option value="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></option>
+            <option value="/pages/aberdeen-marketing-advertising">Marketing</option>
         </select>
     </h5>
 </div>
@@ -98,7 +98,7 @@
             <h5 ><a href="/pages/aberdeen-security">Security</a></h5>
         </div>
         <div class="col-md-3  col-sm-3">
-            <h5 class="active_heading" data-i18n="inside_page.marketing"></h5>
+            <h5 class="active_heading">Marketing</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
