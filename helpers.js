@@ -55,11 +55,11 @@ function init(e){
 }
 
 function show_content(){
-    setTimeout(function() {
+    // setTimeout(function() {
         var scrolled = 0;
         $(".yield").css({ visibility: "visible" });
         $(".custom_backdrop_load").remove();
-    }, 500);
+    // }, 500);
     
     var d = new Date();
     var n = d.getDay();
