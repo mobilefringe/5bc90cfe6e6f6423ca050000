@@ -26,13 +26,11 @@
                     <div class="col-md-8">
                         <div class="details_desc">
                             <img class="margin_20 img-responsive" style="{{show_store_front}}" src="{{store_front_alt_url_abs}}" alt="{{name}} Store Front" />
-                            
                             <div class="map-container">
                                 <div id="mapsvg_store_detail"></div>
                             </div>
                             <div class=" store_desc hidden_phone">
-                                <div class="margin_20 primary-locale">{{{rich_description}}}</div>
-                                <div class="margin_20 secondary-locale">{{{rich_description_2}}}</div>
+                                <div class="margin_20">{{{rich_description}}}</div>
                             </div>
                         </div>
                     </div>
@@ -46,8 +44,7 @@
                                 Website
                             </a>
                             <div class="store_desc show_phone">
-                                <div class="margin_20 primary-locale">{{{rich_description}}}</div>
-                                <div class="margin_20 secondary-locale">{{{rich_description_2}}}</div>
+                                <div class="margin_20">{{{rich_description}}}</div>
                             </div>
                         </div>
                     </div> 
@@ -64,31 +61,16 @@
                 <div id="promos_container">
                     <script id="promos_template" type="x-tmpl-mustache/text">
                         <div class="row promo_item">
-                            <div class="primary-locale">
-                                <div class="col-sm-4">
-                                    <img class="promo_store_image" src="{{promo_image_url_abs}}" alt="{{name}}" />
-                                </div>
-                                <div class="col-sm-8">
-                                    <h2 class="promo_list_name">{{name}}</h2>
-                                    <p>
-                                        <span class="promo_dates">{{dates}}</span>
-                                    </p>
-                                    <div class="promo_list_desc">{{description_short}}</div>
-                                    <a class="read_more" href="/promotions/{{slug}}">See Promotion Details <i class="fa fa-angle-right"></i></a>
-                                </div>
+                            <div class="col-sm-4">
+                                <img class="promo_store_image" src="{{promo_image_url_abs}}" alt="{{name}}" />
                             </div>
-                            <div class="secondary-locale">
-                                <div class="col-md-4">
-                                    <img class="promo_store_image" src="{{promo_image_url_abs}}" alt="{{name_2}}" />
-                                </div>
-                                <div class="col-md-8">
-                                    <h2 class="promo_list_name">{{name_2}}</h2>
-                                    <p>
-                                        <span class="promo_dates">{{dates}}</span>
-                                    </p>
-                                    <div class="promo_list_desc">{{description_short_2}}</div>
-                                    <a class="read_more" href="/promotions/{{slug}}">Voir les détails de la promotion <i class="fa fa-angle-right"></i></a>
-                                </div>
+                            <div class="col-sm-8">
+                                <h2 class="promo_list_name">{{name}}</h2>
+                                <p>
+                                    <span class="promo_dates">{{dates}}</span>
+                                </p>
+                                <div class="promo_list_desc">{{description_short}}</div>
+                                <a class="read_more" href="/promotions/{{slug}}">See Promotion Details <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </script>
@@ -99,37 +81,19 @@
                 <div id="jobs_container">
                     <script id="jobs_template" type="x-tmpl-mustache/text">
                         <div class="row promo_item">
-                            <div class="primary-locale">
-                                <div class="col-md-3">
-                                    <div class="cropped_image">
-                                        <img src="{{img_url}}" alt="{{store_name}} Logo" />
-                                    </div>
-                                </div>
-                                <div class="col-md-9">
-                                    <h2 class="promo_list_name">{{name}}</h2>
-                                    <p>
-                                        <span class="promo_store">{{job_type}}</span><span class="hidden_phone"> | </span>
-                                        <span class="promo_dates">End Date: {{end_date}}</span>
-                                    </p>
-                                    <div class="promo_list_desc">{{description_short}}</div>
-                                    <a class="read_more" href="/jobs/{{slug}}">View Posting Details <i class="fa fa-angle-right"></i></a>
+                            <div class="col-md-3">
+                                <div class="cropped_image">
+                                    <img src="{{img_url}}" alt="{{store_name}} Logo" />
                                 </div>
                             </div>
-                            <div class="secondary-locale">
-                                <div class="col-md-3">
-                                    <div class="cropped_image">
-                                        <img src="{{img_url}}" alt="{{store_name}} Logo" />
-                                    </div>
-                                </div>
-                                <div class="col-md-9">
-                                    <h2 class="promo_list_name">{{name_2}}</h2>
-                                    <p>
-                                        <span class="promo_store">{{job_type}}</span><span class="hidden_phone"> | </span>
-                                        <span class="promo_dates">Date de fin: {{end_date}}</span>
-                                    </p>
-                                    <div class="promo_list_desc">{{{description_short_2}}}</div>
-                                    <a class="read_more" href="/jobs/{{slug}}">Détails du poste <i class="fa fa-angle-right"></i></a>
-                                </div>
+                            <div class="col-md-9">
+                                <h2 class="promo_list_name">{{name}}</h2>
+                                <p>
+                                    <span class="promo_store">{{job_type}}</span><span class="hidden_phone"> | </span>
+                                    <span class="promo_dates">End Date: {{end_date}}</span>
+                                </p>
+                                <div class="promo_list_desc">{{description_short}}</div>
+                                <a class="read_more" href="/jobs/{{slug}}">View Posting Details <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </script>
