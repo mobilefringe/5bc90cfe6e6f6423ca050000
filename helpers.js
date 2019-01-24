@@ -245,31 +245,3 @@ function dropPin(svgmap_region) {
     self.showLocation(svgmap_region);
     $('.stores_table').hide();
 }
-
-function setCurrentLocale(locale){
-    Cookies.set('current_locale', locale);
-    console.log("lang", Cookies.get('current_locale'))
-}
-
-function setPrimaryLanguage(){
-    Cookies.set('current_locale', "en-CA")
-    // Cookies.set('current_locale', Cookies.get('primary_locale'))
-    console.log("before")
-    i18n.setLng("en-CA", function(t) {
-        console.log("after")
-        $(document).i18n();
-        console.log("document")
-    });
-    // Cookies.set('current_locale', Cookies.get('primary_locale'))
-    $('.primary-locale').show(); // Shows
-    $('.secondary-locale').hide();
-}
-
-function setSecondaryLanguage(){
-    i18n.setLng(Cookies.get('secondary_locale'), function(t) {
-        $(document).i18n();
-    });
-    Cookies.set('current_locale', Cookies.get('secondary_locale'))
-    $('.secondary-locale').show();
-    $('.primary-locale').hide();
-}
