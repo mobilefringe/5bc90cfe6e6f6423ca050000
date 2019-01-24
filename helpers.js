@@ -1,5 +1,4 @@
 function init(e){
-    console.log("INIT")
     $('<div class="modal-backdrop custom_backdrop_load"><div class="loader">Loading...</div></div>').appendTo(document.body);
     
     $('.open_menu').click(function(e){
@@ -55,11 +54,11 @@ function init(e){
 }
 
 function show_content(){
-    // setTimeout(function() {
+    setTimeout(function() {
         var scrolled = 0;
         $(".yield").css({ visibility: "visible" });
         $(".custom_backdrop_load").remove();
-    // }, 500);
+    }, 800);
     
     var d = new Date();
     var n = d.getDay();
