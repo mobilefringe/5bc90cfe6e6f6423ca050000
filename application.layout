@@ -154,13 +154,6 @@
                     <div class="google_translate_container">
                         <div id="google_translate_element_m"></div>
                     </div>
-                    <!--<div id="google_translate_element"></div>-->
-                        
-                        
-                    <div class="language_toggle_mobile hide">
-      					<a href="?locale=en" id="set_lang_en_m">EN</a> |
-      					<a href="?locale=fr" id="set_lang_fr_m">FR</a>
-					</div>
                     <p class="hours_home hidden_phone"><span class="hours_dot"></span> 
                         Today's Hours:
                         <span id="home_hours_container">
