@@ -76,7 +76,6 @@
 </style>
 <script>
     $(document).ready(function(e){
-        console.log("document ready")
         init(e);
         function renderAll(){
             var banners = getBanners();
