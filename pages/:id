@@ -5,72 +5,72 @@
 <div class="store_list_head main_container hidden_now" id="community">
     <div class="row hidden_phone">
         <div class="col-md-4  col-sm-4">
-            <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
+            <h5><a href="/gift-cards">Gift Cards</a></h5>
         </div>
          <div class="col-md-4  col-sm-4">
-            <h5 class="active_heading" data-i18n="inside_page.community"></h5>
+            <h5 class="active_heading">Community Bookings</h5>
         </div>
          <div class="col-md-4  col-sm-4">
-            <h5><a href="/pages/aberdeen-sponsorships-donations" data-i18n="inside_page.sponsorship"></a></h5>
+            <h5><a href="/pages/aberdeen-sponsorships-donations">Sponsorship</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>Tap For More Options</option>
-            <option value="/gift-cards" data-i18n="inside_page.gift_cards"></option>
-            <option value="/pages/aberdeen-sponsorships-donations" data-i18n="inside_page.sponsorship"></option>
+            <option value="/gift-cards">Gift Cards</option>
+            <option value="/pages/aberdeen-sponsorships-donations">Sponsorship</option>
         </select>
     </h5>
 </div>
 <div class="store_list_head main_container hidden_now" id="sponsorship">
     <div class="row hidden_phone">
         <div class="col-md-4  col-sm-4">
-            <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
+            <h5><a href="/gift-cards">Gift Cards</a></h5>
         </div>
          <div class="col-md-4  col-sm-4">
-            <h5><a href="/pages/aberdeen-community-bookings" data-i18n="inside_page.community"></a></h5>
+            <h5><a href="/pages/aberdeen-community-bookings">Community Bookings</a></h5>
         </div>
          <div class="col-md-4  col-sm-4">
-            <h5 class="active_heading" data-i18n="inside_page.sponsorship"></h5>
+            <h5 class="active_heading">Sponsorship</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
-            <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
-            <option value="/gift-cards" data-i18n="inside_page.gift_cards"></option>
-            <option value="/pages/aberdeen-community-bookings" data-i18n="inside_page.community"></option>
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/gift-cards">Gift Cards</option>
+            <option value="/pages/aberdeen-community-bookings">Community Bookings</option>
         </select>
     </h5>
 </div>
 <div class="store_list_head main_container hidden_now" id="tourist_info">
     <div class="row hidden_phone">
         <div class="col-md-6">
-            <h5><a href="/hours" data-i18n="inside_page.hours"></a></h5>
+            <h5><a href="/hours">Shopping Hours</a></h5>
         </div>
          <div class="col-md-6">
-            <h5 class="active_heading" data-i18n="inside_page.tourist_info"></h5>
+            <h5 class="active_heading">FAQ</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
-            <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
-            <option value="/hours" data-i18n="inside_page.hours"></option>
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/hours">Shopping Hours</option>
         </select>
     </h5>
 </div>
 <div class="store_list_head main_container hidden_now" id="security">
     <div class="row hidden_phone">
         <div class="col-md-3 col-sm-3">
-            <h5><a href="/contact-us" data-i18n="inside_page.contact_us"></a></h5>
+            <h5><a href="/contact-us">Contact Us</a></h5>
         </div>
         <div class="col-md-3  col-sm-3">
-            <h5><a href="/leasing" data-i18n="inside_page.leasing"></a></h5>
+            <h5><a href="/leasing">Leasing</a></h5>
         </div>
         <div class="col-md-3  col-sm-3">
-            <h5 class="active_heading" data-i18n="inside_page.security"></h5>
+            <h5 class="active_heading">Security</h5>
         </div>
         <div class="col-md-3  col-sm-3">
             <h5><a href="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></a></h5>
@@ -79,9 +79,9 @@
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
-            <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
-            <option value="/leasing" data-i18n="inside_page.leasing"></option>
-            <option value="/contact-us" data-i18n="inside_page.contact_us"></option>
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/leasing">Leasing</option>
+            <option value="/contact-us">Contact Us</option>
             <option value="/pages/aberdeen-marketing-advertising" data-i18n="inside_page.marketing"></option>
         </select>
     </h5>
@@ -89,13 +89,13 @@
 <div class="store_list_head main_container hidden_now" id="marketing">
     <div class="row hidden_phone">
         <div class="col-md-3  col-sm-3">
-            <h5><a href="/contact-us" data-i18n="inside_page.contact_us"></a></h5>
+            <h5><a href="/contact-us">Contact Us</a></h5>
         </div>
         <div class="col-md-3  col-sm-3">
-            <h5><a href="/leasing" data-i18n="inside_page.leasing"></a></h5>
+            <h5><a href="/leasing">Leasing</a></h5>
         </div>
         <div class="col-md-3  col-sm-3">
-            <h5 ><a href="/pages/aberdeen-security" data-i18n="inside_page.security"></a></h5>
+            <h5 ><a href="/pages/aberdeen-security">Security</a></h5>
         </div>
         <div class="col-md-3  col-sm-3">
             <h5 class="active_heading" data-i18n="inside_page.marketing"></h5>
@@ -104,10 +104,10 @@
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
-            <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
-            <option value="/leasing" data-i18n="inside_page.leasing"></option>
-            <option value="/contact-us" data-i18n="inside_page.contact_us"></option>
-            <option value="/pages/aberdeen-security" data-i18n="inside_page.security"></option>
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/leasing">Leasing</option>
+            <option value="/contact-us">Contact Us</option>
+            <option value="/pages/aberdeen-security">Security</option>
         </select>
     </h5>
 </div>
@@ -137,14 +137,8 @@
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
-                if(Cookies.get('current_locale') == "en-CA"){
-                    $('#mm_page_title').html(data.title.toUpperCase());
-                    $('#mm_page_content').html(data.body);
-                }
-                if(Cookies.get('current_locale') == "fr-CA"){
-                    $('#mm_page_title').html(data.title_2.toUpperCase());
-                    $('#mm_page_content').html(data.body_2);
-                }
+                $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
@@ -154,28 +148,24 @@
             // check if top header should be shown 
             if (slug == 'aberdeen-faq'){
                 $("#tourist_info").show();
-            }
-            else if(slug == 'aberdeen-community-bookings') {
+            } else if (slug == 'aberdeen-community-bookings') {
                 $("#community").show();
-            }
-            else if(slug == 'aberdeen-sponsorships-donations') {
+            } else if (slug == 'aberdeen-sponsorships-donations') {
                 $("#sponsorship").show();
-            }
-            else if(slug == 'aberdeen-security') {
+            } else if (slug == 'aberdeen-security') {
                 $("#security").show();
-            }
-            else if(slug == 'aberdeen-marketing-advertising') {
+            } else if (slug == 'aberdeen-marketing-advertising') {
                 $("#marketing").show();
             }
             
             if(_.includes(['aberdeen-faq','aberdeen-community-bookings', 'aberdeen-sponsorships-donations', 'aberdeen-security', 'aberdeen-marketing-advertising'], slug)){
                 $("#page_banner").addClass("main_banner");
                 $("#page_banner").removeClass("inside_banner");
-            }
-            else {
+            } else {
                 $("#page_banner").removeClass("main_banner");
                 $("#page_banner").addClass("inside_banner");
             }
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
