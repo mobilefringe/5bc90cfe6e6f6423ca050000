@@ -664,7 +664,7 @@
 				});
 
 				// Zoom out button
-				this.zoomout = $('<a>Zoom Out</ha>').attr('href', '#').addClass('mapplic-zoomout-button').appendTo(this.el);
+				this.zoomout = $('<a>Zoom Out</a>').attr('href', '#').addClass('mapplic-zoomout-button').appendTo(this.el);
 				this.zoomout.on('click touchstart', function(e) {
 					e.preventDefault();
 
