@@ -650,7 +650,7 @@
 				if (!self.o.clearbutton) this.el.css('bottom', '0');
 
 				// Zoom in button
-				this.zoomin = $('<a></ha>').attr('href', '#').addClass('mapplic-zoomin-button').appendTo(this.el);
+				this.zoomin = $('<a>Zoom In</ha>').attr('href', '#').addClass('mapplic-zoomin-button').appendTo(this.el);
 				this.zoomin.on('click touchstart', function(e) {
 					e.preventDefault();
 
@@ -664,7 +664,7 @@
 				});
 
 				// Zoom out button
-				this.zoomout = $('<a></ha>').attr('href', '#').addClass('mapplic-zoomout-button').appendTo(this.el);
+				this.zoomout = $('<a>Zoom Out</ha>').attr('href', '#').addClass('mapplic-zoomout-button').appendTo(this.el);
 				this.zoomout.on('click touchstart', function(e) {
 					e.preventDefault();
 
