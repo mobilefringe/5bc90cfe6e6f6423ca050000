@@ -82,7 +82,7 @@
 
 				// Construct
 				this.el = $('<div></div>').addClass('mapplic-tooltip');
-				this.close = $('<a></a>').addClass('mapplic-tooltip-close').attr('href', '#').appendTo(this.el);
+				this.close = $('<a>close</a>').addClass('mapplic-tooltip-close').attr('href', '#').appendTo(this.el);
 				this.close.on('click touchend', function(e) {
 					e.preventDefault();
 					self.hideLocation();
