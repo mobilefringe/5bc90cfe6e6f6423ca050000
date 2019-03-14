@@ -1,0 +1,169 @@
+<div class="inside_banner text-center" id="page_banner">
+    <h2 id="mm_page_title"></h2>
+    <p>EXPLORE • ENJOY • SHOP</p>
+</div>
+<div class="store_list_head main_container hidden_now" id="community">
+    <div class="row hidden_phone">
+        <div class="col-md-4  col-sm-4">
+            <h5><a href="/gift-cards">Gift Cards</a></h5>
+        </div>
+         <div class="col-md-4  col-sm-4">
+            <h5 class="active_heading">Community Bookings</h5>
+        </div>
+         <div class="col-md-4  col-sm-4">
+            <h5><a href="/pages/aberdeen-sponsorships-donations">Sponsorship</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <label class="accessibility" for="option_selector">Select an Option</label>
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/gift-cards">Gift Cards</option>
+            <option value="/pages/aberdeen-sponsorships-donations">Sponsorship</option>
+        </select>
+    </h5>
+</div>
+<div class="store_list_head main_container hidden_now" id="sponsorship">
+    <div class="row hidden_phone">
+        <div class="col-md-4  col-sm-4">
+            <h5><a href="/gift-cards">Gift Cards</a></h5>
+        </div>
+         <div class="col-md-4  col-sm-4">
+            <h5><a href="/pages/aberdeen-community-bookings">Community Bookings</a></h5>
+        </div>
+         <div class="col-md-4  col-sm-4">
+            <h5 class="active_heading">Sponsorship</h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/gift-cards">Gift Cards</option>
+            <option value="/pages/aberdeen-community-bookings">Community Bookings</option>
+        </select>
+    </h5>
+</div>
+<div class="store_list_head main_container hidden_now" id="tourist_info">
+    <div class="row hidden_phone">
+        <div class="col-md-6">
+            <h5><a href="/hours">Shopping Hours</a></h5>
+        </div>
+         <div class="col-md-6">
+            <h5 class="active_heading">FAQ</h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/hours">Shopping Hours</option>
+        </select>
+    </h5>
+</div>
+<div class="store_list_head main_container hidden_now" id="security">
+    <div class="row hidden_phone">
+        <div class="col-md-3 col-sm-3">
+            <h5><a href="/contact-us">Contact Us</a></h5>
+        </div>
+        <div class="col-md-3  col-sm-3">
+            <h5><a href="/leasing">Leasing</a></h5>
+        </div>
+        <div class="col-md-3  col-sm-3">
+            <h5 class="active_heading">Security</h5>
+        </div>
+        <div class="col-md-3  col-sm-3">
+            <h5><a href="/pages/aberdeen-marketing-advertising">Marketing</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/leasing">Leasing</option>
+            <option value="/contact-us">Contact Us</option>
+            <option value="/pages/aberdeen-marketing-advertising">Marketing</option>
+        </select>
+    </h5>
+</div>
+<div class="store_list_head main_container hidden_now" id="marketing">
+    <div class="row hidden_phone">
+        <div class="col-md-3  col-sm-3">
+            <h5><a href="/contact-us">Contact Us</a></h5>
+        </div>
+        <div class="col-md-3  col-sm-3">
+            <h5><a href="/leasing">Leasing</a></h5>
+        </div>
+        <div class="col-md-3  col-sm-3">
+            <h5 ><a href="/pages/aberdeen-security">Security</a></h5>
+        </div>
+        <div class="col-md-3  col-sm-3">
+            <h5 class="active_heading">Marketing</h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/leasing">Leasing</option>
+            <option value="/contact-us">Contact Us</option>
+            <option value="/pages/aberdeen-security">Security</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding pages_text">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="mm_page_content"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var banner_repo = getRepoDetailsByName("Pages Banner");
+            if (banner_repo) {
+                var banner_image = banner_repo.images[0].image_url;
+                if (banner_image) {
+                    $(".inside_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(" + banner_image + ") center center" });
+                }
+            }
+            
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix + "/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            
+            // check if top header should be shown 
+            if (slug == 'aberdeen-faq'){
+                $("#tourist_info").show();
+            } else if (slug == 'aberdeen-community-bookings') {
+                $("#community").show();
+            } else if (slug == 'aberdeen-sponsorships-donations') {
+                $("#sponsorship").show();
+            } else if (slug == 'aberdeen-security') {
+                $("#security").show();
+            } else if (slug == 'aberdeen-marketing-advertising') {
+                $("#marketing").show();
+            }
+            
+            if(_.includes(['aberdeen-faq','aberdeen-community-bookings', 'aberdeen-sponsorships-donations', 'aberdeen-security', 'aberdeen-marketing-advertising'], slug)){
+                $("#page_banner").addClass("main_banner");
+                $("#page_banner").removeClass("inside_banner");
+            } else {
+                $("#page_banner").removeClass("main_banner");
+                $("#page_banner").addClass("inside_banner");
+            }
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
