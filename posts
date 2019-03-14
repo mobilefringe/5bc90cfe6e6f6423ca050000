@@ -1,0 +1,57 @@
+<div class="main_banner text-center">
+    <h2>Blog</h2>
+    <p>EXPLORE • ENJOY • SHOP</p>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="post_container">
+                    <script id="post_template" type="x-tmpl-mustache/text">
+                        <div class="row promo_item">
+                            <div class="col-md-3">
+                                <div class="cropped_image">
+                                    <img src="{{image_url}}" alt="{{title}}" />
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h2 class="promo_list_name">{{title}}</h2>
+                                <p>
+                                    Posted On:
+                                    <span class="promo_dates">{{published_on}}</span>
+                                </p>
+                                <div class="promo_list_desc">{{description_short}}</div>
+                                <a class="newsletter_btn animated_btn inside_btn" href="/posts/{{slug}}">
+                                    View Blog Details <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </script>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var banner_repo = getRepoDetailsByName("News Banner");
+            if (banner_repo) {
+                var banner_image = banner_repo.images[0].image_url;
+                if (banner_image) {
+                    $(".main_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #000 url(" + banner_image + ") center center" });
+                }
+            }
+            
+            var blog = getBlogDataBySlug("aberdeen-back-to-school").posts
+            var posts = blog.sortBy(function(o){ return o.publish_date}).reverse();
+            renderPosts('#post_container', '#post_template', posts);
+
+            show_content();
+        }
+		loadMallDataCached(renderAll); 
+    })
+</script>
