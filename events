@@ -121,6 +121,7 @@
                 $('#eventsCalendar').fadeIn();
             });
             
+            console.log("published_promos", published_promos)
             $('#calendar').fullCalendar({
                 header: {
                     right:  'prev,next'
