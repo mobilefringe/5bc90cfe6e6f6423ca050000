@@ -636,7 +636,7 @@ h4 {
     }
 }
 .event_btns {
-        width: 132px;
+    width: 132px;
     position: relative;
     text-align: center;
     margin: auto;
@@ -645,7 +645,7 @@ h4 {
 .event_toggle_btn {
     padding: 5px 10px;
     border-radius: 5px;
-    background: #5194E3;
+    background: $primary;
     color: #FFF;
     font-size: 17px;
     .fa {
