@@ -25,8 +25,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="event_btns">
-                    <div id="calendarBtn" class="event_toggle_btn hidden_now"><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</div>
-                    <div id="listBtn" class="event_toggle_btn"><i class="fa fa-list" aria-hidden="true"></i> List View</div>    
+                    <div id="calendarBtn" class="event_toggle_btn"><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</div>
+                    <div id="listBtn" class="event_toggle_btn hidden_now"><i class="fa fa-list" aria-hidden="true"></i> List View</div>    
                 </div>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane" id="eventsCalendar">
