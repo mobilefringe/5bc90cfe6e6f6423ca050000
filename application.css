@@ -842,16 +842,17 @@ h4 {
     background-repeat: no-repeat !important;
     background-color: #fff !important;
     background-position: 280px !important;
+    .popup_header1{
+        margin: 0px;
+        font-size: 16px;
+    }
 }
 .pop_up_container{
     width:550px; 
     height: 474px; 
     margin: auto;
     // background: url('Batman-Batmobile.jpg');
-    .popup_header1{
-        margin: 0px;
-        font-size: 16px;
-    }
+    
 }
 .pop_up_form_container{
     width: 50%; 
