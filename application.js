@@ -152,7 +152,7 @@ function renderFeatureItems(){
     $.each(items, function(i, val){
         if (val.name === "") {
             if(val.url === ""){
-                $('#feature_' + i).html('<img src="'+ val.image_url+'" class="hoverer" alt="Feature Item">')
+                $('#feature_' + i).html('<img src="'+ val.image_url+'" class="hoverer" alt="">')
             } else {
                 $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="Feature Item"></a>')
             }
