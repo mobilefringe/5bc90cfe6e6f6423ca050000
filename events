@@ -93,7 +93,6 @@
             var promotions = getEventsList().sortBy(function(o){ return o.end_date });
             var published_promos = [];
             $.each(promotions, function(key, val) {
-                today = moment();
                 webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
                     val.start = moment(val.start_date).tz(propertyTz).format();
