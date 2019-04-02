@@ -152,9 +152,9 @@ function renderFeatureItems(){
     $.each(items, function(i, val){
         if (val.name === "") {
             if(val.url === ""){
-                $('#feature_' + i).html('<img src="'+ val.image_url+'" class="hoverer" alt="">')
+                $('#feature_' + i).html('<img src="'+ val.image_url+'" class="hoverer" alt="Feature Item">')
             } else {
-                $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt=""></a>')
+                $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="Feature Item"></a>')
             }
         } else {
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
