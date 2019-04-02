@@ -227,7 +227,7 @@
                         
                     </div>
                     <div id="desktopHeader">
-                        <div id="g_translater" class="text-center">
+                        <div id="g_translater">
                             <div id="google_translate_element"></div>
                         </div>
                     </div>
