@@ -635,7 +635,24 @@ h4 {
         margin-left:0 !important;
     }
 }
-
+.event_btns {
+    width: 132px;
+    float: right;
+    text-align: center;
+}
+.event_toggle_btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #5194E3;
+    color: #FFF;
+    font-size: 17px;
+    .fa {
+        color: #FFF;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
 .store_list_head {
     margin-top: -72px;
     margin-left: auto;
