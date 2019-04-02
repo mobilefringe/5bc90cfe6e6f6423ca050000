@@ -73,7 +73,7 @@
 </div>
 <script id="store_list_template" type="x-tmpl-mustache/text">
     <div class="store_list_content cats_row" data-cat="{{cat_list}}">
-        <h2 class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</h2>
+        <p class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</p>
         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
     </div>
 </script>
