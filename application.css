@@ -636,9 +636,11 @@ h4 {
     }
 }
 .event_btns {
-    width: 132px;
-    float: right;
+        width: 132px;
+    position: relative;
     text-align: center;
+    margin: auto;
+    margin-right: 0;
 }
 .event_toggle_btn {
     padding: 5px 10px;
