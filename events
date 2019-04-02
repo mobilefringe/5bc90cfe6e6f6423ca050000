@@ -28,27 +28,42 @@
                     <div id="calendarBtn" class="event_toggle_btn hidden_now"><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</div>
                     <div id="listBtn" class="event_toggle_btn"><i class="fa fa-list" aria-hidden="true"></i> List View</div>    
                 </div>
-                <div id="promos_container">
-                    <script id="promos_template" type="x-tmpl-mustache/text">
-                        <div class="row promo_item">
-                            <div class="col-md-3">
-                                <div class="cropped_image">
-                                    <img src="{{event_image_url_abs}}" alt="{{name}}" />
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane" id="eventsCalendar">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="margin_30"></div>
+                                <div class="position_relative">
+                                    <div class="calendar" id="calendar"></div>
+                                    <div class="margin_60"></div>
                                 </div>
                             </div>
-                            <div class="col-md-9">
-                                <h2 class="promo_list_name">{{name}}</h2>
-                                <p>
-                                    <span class="promo_store">{{store_name}}</span><span class="hidden_phone"> | </span>
-                                    <span class="promo_dates">{{dates}}</span>
-                                </p>
-                                <div class="promo_list_desc">{{description_short}}</div>
-                                <a class="newsletter_btn animated_btn inside_btn" href="/events/{{slug}}">
-                                    View Event Details <i class="fa fa-angle-right"></i>
-                                </a>
-                            </div>
                         </div>
-                    </script>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="eventsList">
+                        <div id="promos_container">
+                            <script id="promos_template" type="x-tmpl-mustache/text">
+                                <div class="row promo_item">
+                                    <div class="col-md-3">
+                                        <div class="cropped_image">
+                                            <img src="{{event_image_url_abs}}" alt="{{name}}" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h2 class="promo_list_name">{{name}}</h2>
+                                        <p>
+                                            <span class="promo_store">{{store_name}}</span><span class="hidden_phone"> | </span>
+                                            <span class="promo_dates">{{dates}}</span>
+                                        </p>
+                                        <div class="promo_list_desc">{{description_short}}</div>
+                                        <a class="newsletter_btn animated_btn inside_btn" href="/events/{{slug}}">
+                                            View Event Details <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </script>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
