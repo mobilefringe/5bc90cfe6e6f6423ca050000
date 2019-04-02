@@ -104,6 +104,9 @@
             } else {
                 $('#no_events').show()
             }
+            
+            $('#eventsList').fadeIn();
+            
             $('#listBtn').click(function(){
                 $('#listBtn').hide();
                 $('#calendarBtn').show(); 
