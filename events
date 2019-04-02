@@ -88,7 +88,8 @@
                     $(".main_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #000 url(" + banner_image + ") center center" });
                 }
             }
-            
+            var propertyTz = getPropertyTimeZone();
+            var today = moment().tz(propertyTz);
             var promotions = getEventsList().sortBy(function(o){ return o.end_date });
             var published_promos = [];
             $.each(promotions, function(key, val) {
