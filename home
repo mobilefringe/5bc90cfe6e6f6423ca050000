@@ -3,7 +3,7 @@
     <div class="homepop_up_container">
         <div class="pop_up_form_container">
             <div class="pop_up_form">
-                <h4 class="popup_header1">JOIN OUR NEWSLETTER</h4>
+                <h2 class="popup_header1">JOIN OUR NEWSLETTER</h2>
                 <form action="https://mobilefringe.createsend.com/t/d/s/ykblk/" method="post" id="popupForm">
                     <label for="name_pop_up">Name</label>
                     <input id="name_pop_up" type="text" name=cm-name>
