@@ -164,7 +164,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-2 show_phone"></div>
                 <div class="col-md-4 col-sm-4 col-xs-8 text-center">
-                    <div class="google_translate_container">
+                    <div class="google_translate_container show_phone">
                         <div id="google_translate_element_m"></div>
                     </div>
                     <a href="/">
