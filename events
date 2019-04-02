@@ -102,6 +102,45 @@
             } else {
                 $('#no_events').show()
             }
+            $('#listBtn').click(function(){
+                $('#listBtn').hide();
+                $('#calendarBtn').show(); 
+                $('#eventsCalendar').fadeOut();
+                $('#eventsList').fadeIn();
+            });
+            
+            $('#calendarBtn').click(function() {
+                $('#calendarBtn').hide();
+                $('#listBtn').show();
+                $('#eventsList').fadeOut();
+                $('#eventsCalendar').fadeIn();
+            });
+            
+            $('#calendar').fullCalendar({
+                header: {
+                    right:  'prev,next'
+                },
+                timezone: getPropertyTimeZone(),
+                events: filteredEvents,
+                buttonText: {
+                    prev: "Previous Month",
+                    next: "Next Month"
+                },
+                viewRender: function(view,element) {
+                    var now = new Date();
+                    var end = new Date();
+                    end.setMonth(now.getMonth() + 3); //Adjust as needed
+        
+                    if ( end < view.end) {
+                        $("#calendar .fc-next-button").addClass("fc-state-disabled");
+                        return false;
+                    }
+                    else {
+                        $("#calendar .fc-next-button").removeClass("fc-state-disabled");
+                    }
+                }
+            });
+            
             show_content();
         }
 		loadMallDataCached(renderAll); 
