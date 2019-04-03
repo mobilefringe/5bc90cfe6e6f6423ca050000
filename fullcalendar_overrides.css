@@ -90,7 +90,10 @@ $primary: #013a80;
     background-color: $primary;
 }
 .fc-ltr .fc-h-event.fc-not-start, .fc-rtl .fc-h-event.fc-not-end {
-    padding-left: 3px;
+    padding-left: 4px;
+}
+.fc-ltr .fc-h-event.fc-not-end, .fc-rtl .fc-h-event.fc-not-start{
+    padding-right: 4px;
 }
 /* Small devices (tablets, 768px and down) */
 @media (max-width: 768px) {
