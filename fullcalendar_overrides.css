@@ -82,6 +82,10 @@
     margin-left: 5px;
 }
 
+.fc-basic-view .fc-body .fc-row {
+    min-height: 6em;
+}
+
 /* Small devices (tablets, 768px and down) */
 @media (max-width: 768px) {
     .fc-toolbar .fc-left h2 {
