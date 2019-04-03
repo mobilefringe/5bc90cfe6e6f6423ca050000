@@ -1016,7 +1016,7 @@ h4 {
 }
 
 .social_icons{
-    margin: 0px;
+    margin: 0 -7.5px;
     span {
         margin: 0 4.5px;
         width: 35px;
