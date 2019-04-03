@@ -88,6 +88,8 @@ $primary: #013a80;
 }
 .fc-event, .fc-event-dot{
     background-color: $primary;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 .fc-ltr .fc-h-event.fc-not-start, .fc-rtl .fc-h-event.fc-not-end {
     padding-left: 4px;
