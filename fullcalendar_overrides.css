@@ -89,6 +89,9 @@ $primary: #013a80;
 .fc-event, .fc-event-dot{
     background-color: $primary;
 }
+.fc-ltr .fc-h-event.fc-not-start, .fc-rtl .fc-h-event.fc-not-end {
+    padding-left: 3px;
+}
 /* Small devices (tablets, 768px and down) */
 @media (max-width: 768px) {
     .fc-toolbar .fc-left h2 {
