@@ -22,6 +22,11 @@
         line-height: 44px;
         color: #000;
         text-transform: uppercase;
+        margin: 0;
+        padding: 27px 0px;
+        font-size: 24px;
+        color: #013a80;
+        text-transform: uppercase;
         font-weight: bolder;
         color: #013a80;
     }
