@@ -97,6 +97,9 @@ $primary: #013a80;
 .fc-ltr .fc-h-event.fc-not-end, .fc-rtl .fc-h-event.fc-not-start{
     padding-right: 4px;
 }
+.fc=title{
+    white-space: normal
+}
 /* Small devices (tablets, 768px and down) */
 @media (max-width: 768px) {
     .fc-toolbar .fc-left h2 {
