@@ -136,7 +136,7 @@
                         val.num = start.format("D")
                         val.month = start.format("MMM")
                     }
-                    if(val.tags){
+                    if(_.includes(val.tags, 'calendar')){
                         calendar_promos.push(val);
                     }
                     published_promos.push(val);
