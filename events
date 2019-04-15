@@ -136,6 +136,9 @@
                         val.num = start.format("D")
                         val.month = start.format("MMM")
                     }
+                    if(val.tag){
+                        calendar_promos.push(val);
+                    }
                     published_promos.push(val);
                 } 
             });
