@@ -173,7 +173,7 @@
                     right:  'prev,next'
                 },
                 timezone: getPropertyTimeZone(),
-                events: published_promos,
+                events: calendar_promos,
                 buttonText: {
                     prev: "Previous Month",
                     next: "Next Month"
