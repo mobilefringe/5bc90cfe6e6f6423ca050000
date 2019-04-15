@@ -92,6 +92,7 @@
             var today = moment().tz(propertyTz);
             var promotions = getEventsList().sortBy(function(o){ return o.end_date });
             var published_promos = [];
+            var calendar_promos = [];
             $.each(promotions, function(key, val) {
                 webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
