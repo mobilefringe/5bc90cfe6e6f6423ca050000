@@ -141,7 +141,7 @@
                     }
                     
                     calendar_promos.push(val);
-                    console.log("calendar_promos", calendar_promos)
+                    console.log("calendar_promos", calendar_promos, "published_promos", published_promos)
                     
                 } 
             });
