@@ -193,7 +193,6 @@
                 }
             });
             
-            
             show_content();
         }
 		loadMallDataCached(renderAll); 
