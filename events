@@ -140,7 +140,7 @@
                         published_promos.push(val);
                     }
                     
-                        calendar_promos.push(val);
+                    calendar_promos.push(val);
                     
                 } 
             });
