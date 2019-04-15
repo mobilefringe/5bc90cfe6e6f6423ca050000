@@ -193,7 +193,6 @@
                 }
             });
             
-            console.log("published_promos", published_promos, $('#calendar'))
             
             show_content();
         }
