@@ -320,11 +320,6 @@
             </div>
         </div>
     </section>
-    // <script>
-    //     $("#track_link").click( function() {
-    //         trackOutboundLink('http://bit.ly/cyclone-idai-cushman-wakefield');
-    //     });
-    // </script>
 </body>
 
 </html>
