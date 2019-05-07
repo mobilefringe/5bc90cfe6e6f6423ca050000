@@ -104,7 +104,7 @@
                     
                     val.store_name = "Aberdeen Mall";
                     val.image_url = "https://mallmaverick.cdn.speedyrails.net" + val.event_image_url;
-                    val.logo  = "//codecloud.cdn.speedyrails.net/sites/5a57a7d06e6f6428f0080000/image/jpeg/1513719653000/default_tmb.jpg";
+                    val.logo  = "//codecloud.cdn.speedyrails.net/sites/5c82c7ee6e6f6463c7040000/image/png/1546964185000/aberdeenlogo.png";
                     if(val.image_url.indexOf('missing.png') > 0){
                         val.image_url  = val.logo;
                     }
