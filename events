@@ -102,7 +102,7 @@
                     val.url = "/events/" + val.slug;
                     
                     
-                    val.store_name = "The Gateway";
+                    val.store_name = "Aberdeen Mall";
                     val.image_url = "https://mallmaverick.cdn.speedyrails.net" + val.event_image_url;
                     val.logo  = "//codecloud.cdn.speedyrails.net/sites/5a57a7d06e6f6428f0080000/image/jpeg/1513719653000/default_tmb.jpg";
                     if(val.image_url.indexOf('missing.png') > 0){
@@ -151,7 +151,7 @@
                 $('#no_events').show()
             }
             
-            $('#eventsList').fadeIn();
+            $('#eventsCalendar').fadeIn();
             
             $('#listBtn').click(function(){
                 $('#listBtn').hide();
