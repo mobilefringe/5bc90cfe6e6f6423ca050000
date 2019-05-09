@@ -124,7 +124,7 @@
             if (banner_repo) {
                 var banner_image = banner_repo.images[0].image_url;
                 if (banner_image) {
-                    $(".inside_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #000 url(" + banner_image + ") center center" });
+                    $(".inside_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #013a80 url(" + banner_image + ") center center no-repeat" });
                 }
             }
             
