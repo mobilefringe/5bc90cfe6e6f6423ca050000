@@ -713,6 +713,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
         if (val.store_front_alt_url_abs.indexOf('missing.png') > 0) {
+            val.store_front_alt_url_abs = "";
             val.show_store_front = "display: none"
         }
         if (val.website != null && val.website.length > 0){
