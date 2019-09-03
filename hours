@@ -15,7 +15,7 @@
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>Tap For More Options</option>
-            <option value="/pages/aberdeen-faq">FAQ</option>  
+            <option value="/pages/aberdeen-faq">FAQ</option>
         </select>
     </h5>
 </div>
