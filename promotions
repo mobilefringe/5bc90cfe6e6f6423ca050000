@@ -96,18 +96,28 @@
             
             var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
             var published_promos = [];
+            var featured_promos = [];
+            
             var published_property_promos = [];
             $.each(promotions, function(key, val){
                 today = moment();
                 webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
-                    if (val.promotionable_type == "Store") {
+                    if (val.is_featured === true) {
+                        featured_promos.push(val)
+                    } else if (val.promotionable_type == "Store" && val.is_featured === false) {
                         published_promos.push(val)
                     } else {
                         published_property_promos.push(val);
                     }
+                    
                 } 
             });
+            
+            if (featured_promos.length > 0) {
+                renderPromotions("#promos_container","#promos_template", featured_promos, "Aberdeen Mall");
+            }
+            
             if (published_promos.length > 0) {
                 renderPromotions("#promos_container","#promos_template", published_promos, "Aberdeen Mall");
             }
