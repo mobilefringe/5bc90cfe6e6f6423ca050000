@@ -129,7 +129,7 @@
                 today = moment();
                 webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
-                    if (val.is_featured === true) {
+                    if (val.is_featured === true && val.promotionable_type === "Property") {
                         featured_promos.push(val)
                     } else if (val.promotionable_type == "Store" && val.is_featured === false) {
                         published_promos.push(val)
