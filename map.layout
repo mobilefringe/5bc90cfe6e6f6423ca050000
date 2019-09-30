@@ -11,7 +11,7 @@
     <meta name="keywords" content="{{meta_keywords}}">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@Billings_Bridge" />
+    <meta name="twitter:site" content="@AberdeenMall" />
     <meta name="twitter:title" content="{{meta_title}}" />
     <meta name="twitter:description" content="{{meta_description}}" />
     <meta name="twitter:image" content="{{meta_image}}" />
@@ -50,8 +50,8 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('//billingsbridge.mallmaverickstaging.com/api/v4/aberdeen/all.json');
-        setSocialEndPoint('//billingsbridge.mallmaverick.com/api/v2/aberdeen/social.json')
+        setEndPoint('//aberdeen.mallmaverickstaging.com/api/v4/aberdeen/all.json');
+        setSocialEndPoint('//aberdeen.mallmaverick.com/api/v2/aberdeen/social.json')
     </script>
     
     <script>
@@ -107,7 +107,7 @@
                     <ul class="sub_menu hidden_now">
                         <li><a href="/events">Events</a></li>
                         <li><a href="/promotions">Promotions</a></li>
-                         <li><a href="/contests/billings-mind-your-own-business-contest">Contest</a></li>
+                         <!--<li><a href="/contests">Contest</a></li>-->
 					</ul>
                 </li>
                 <li>
@@ -220,7 +220,7 @@
     
     <script>
         jQuery(document).ready(function($){
-            $.getJSON("//billingsbridge.mallmaverick.com/api/v3/billings/messages.json").done(function(data){
+            $.getJSON("//aberdeen.mallmaverick.com/api/v3/aberdeen/messages.json").done(function(data){
                 var messages = data.messages.bulletin
                 if (messages != undefined){
                     if (messages.length == 0){
