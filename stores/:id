@@ -243,7 +243,7 @@
             }
         }
       
-        loadMallDataCached(renderAll);
+        // loadMallDataCached(renderAll);
         
         show_content();
         // Enhanced map code
@@ -256,7 +256,7 @@
         } else {
             $('#IE_map').remove();
         }
-        // loadMallDataCached(renderAll); 
+        loadMallDataCached(renderAll); 
     });
         // Enhanced map code
     window.addEventListener('message', function(event) {
