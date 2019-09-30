@@ -235,7 +235,7 @@
             
 <!--            map.on('mapready', function(e, self) {-->
 <!--				console.log('Map is ready!');-->
-				// mapLoaded(map);
+				<!--// mapLoaded(map);-->
 <!--				$('.map_pin_a').click(function(e){-->
 <!--                    e.preventDefault();-->
 <!--                    var svgmap_region = $(this).attr('store_id');-->
