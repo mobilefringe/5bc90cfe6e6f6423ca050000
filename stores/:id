@@ -242,8 +242,6 @@
                 });
             }
         }
-      
-        // loadMallDataCached(renderAll);
         
         show_content();
         // Enhanced map code
