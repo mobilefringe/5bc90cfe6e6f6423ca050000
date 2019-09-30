@@ -115,148 +115,209 @@
 <script src="//codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min.js"></script>
 
 <script>
-    let store_details = null
+    // let store_details = null
+    // $(document).ready(function(e){
+    //     init(e);
+    //     function renderAll (){
+    //         var pathArray = window.location.pathname.split( '/' );
+    //         var slug = pathArray[pathArray.length-1];
+    //         store_details = getStoreDetailsBySlug(slug);
+    //         if (store_details === undefined){
+    //             window.location = "/";
+    //         } else {
+    //             renderStoreDetails("#store_container","#store_template", store_details, slug);
+                
+    //             //PROMOS
+    //             var store_promo_ids = store_details.promotions
+    //             var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
+    //             var published_promos = [];
+    //             $.each( store_promos , function( key, val ){
+    //                 today = moment();
+    //                 webDate = moment(val.show_on_web_date);
+    //                 if (today >= webDate) {
+    //                     published_promos.push(val)
+    //                 } 
+    //             });
+    //             if( published_promos.length > 0){
+    //                 renderPromotions("#promos_container","#promos_template", published_promos);
+    //                 $('#promo_anchor span').text(published_promos.length)
+    //             } else {
+    //                 $('#promos_main').hide()
+    //                 $('#promo_anchor').hide()
+    //             }
+                
+    //             // JOBS
+    //             var store_job_ids = store_details.jobs
+    //             var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
+    //             var published_jobs = [];
+    //             $.each( store_jobs , function( key, val ){
+    //                 today = moment();
+    //                 webDate = moment(val.show_on_web_date);
+    //                 if (today >= webDate) {
+    //                     published_jobs.push(val)
+    //                 } 
+    //             });
+    //             if( published_jobs.length > 0){
+    //                 renderJobs('#jobs_container', '#jobs_template', published_jobs);
+    //                 $('#job_anchor span').text(published_jobs.length)
+    //             } else {
+    //                 $('#jobs_main').hide();
+    //                 $('#job_anchor').hide()
+    //             }
+                
+    //             var svg_width = 1080;
+    //             var svg_height = 1224;
+    //             //MAP  
+    //             var stores = getStoresList();
+    //             var mall_json = {};
+    //             var landmarks = {};
+    //             mall_json.mapwidth = svg_width;
+    //             mall_json.mapheight = svg_height;
+    //             mall_json.categories = [];
+    //             mall_json.levels = [];
+    
+    //             // need to add the following for each floor we want to configure.
+    //             _.forEach(floorList(), function(value, key) {
+    //                 var floor_1 = {};
+    //                 floor_1.id = value.id;
+    //                 floor_1.title = value.title;
+    //                 floor_1.map = value.map;
+    //                 floor_1.show = value.show;
+    //                 floor_1.locations = [];
+    //                 var stores_on_floors= [];
+    //                 if( value.z_index == null) {
+    //                     stores_on_floors = stores;
+    //                 } else {
+    //                     stores_on_floors = _.filter(stores, function(o) { if(o.z_coordinate == null) {return true;} else { return value.z_index === o.z_coordinate; }});
+    //                 }
+    //                 _.forEach(stores_on_floors, function(val, key) {
+    //                     //for testing limiting the store numbers to vm
+    //                     var temp_val = {};
+    //                     temp_val.id = val.id;
+    //                     temp_val.title = val.name;
+    //                     temp_val.about = val.description.substring(0, 200);
+    //                     if (val.categories != null) {
+    //                         if (val.categories.length > 1) {
+    //                             temp_val.category = val.categories[1];
+    //                         } else {
+    //                             temp_val.category = val.categories[0];
+    //                         }
+    //                     }
+    //                     temp_val.zoom = 2;
+    //                     temp_val.link = "/stores/" + val.slug;
+    //                     temp_val.pin = "hidden";
+    
+    //                     //get svg's width/height by checking the map
+                        
+    //                     temp_val.x = val.x_coordinate / svg_width;
+    //                     temp_val.y = val.y_coordinate / svg_height;
+                        
+    //                     // temp_val.zoom = "5";
+    //                     floor_1.locations.push(temp_val);
+    //                 });
+    //                 mall_json.levels.push(floor_1);
+    //             });
+                
+    //             map = $('.mapsvg_store_detail').mapplic({
+    //                 source: mall_json,
+    //                 height: 400,
+    //                 landmark: true,
+    //                 mapfill: true,
+    //                 minimap: false,
+    //                 sidebar: false,
+    //                 hovertip: true,
+    //                 developer: false,
+    //                 fullscreen: false,
+    //                 clearbutton: false,
+    //                 deeplinking: false,
+    //                 fillcolor: "none",
+    //                 maxscale: 1,
+    //                 skin: 'mapplic-dark',
+    //                 action: "tooltip"
+    //             });
+    
+    //             map.on('mapready', function(e, self) {
+    //                 self.showLocation(store_details.id);
+    //             });
+    //         }
+    //     }
+      
+    //     // loadMallDataCached(renderAll);
+        
+    //     show_content();
+    //     // Enhanced map code
+    //     $('#iFrame1').css('display','block')
+    //     console.log('IE ' + detectIE());
+    //     if(detectIE()){
+    //         var svg_url = '//mallmaverickstaging.com'+getPropertyDetails().svgmap_url;
+    //         $('#iFrame1').remove();
+    //         $("#IE_map").attr("src", svg_url)
+    //     } else {
+    //         $('#IE_map').remove();
+    //     }
+    //     loadMallDataCached(renderAll); 
+    // });
+        let store_details = null
     $(document).ready(function(e){
         init(e);
         function renderAll (){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             store_details = getStoreDetailsBySlug(slug);
-            if (store_details === undefined){
-                window.location = "/";
+            renderStoreDetails("#store_container","#store_template", store_details, slug);
+            
+            //PROMOS
+            var store_promo_ids = store_details.promotions
+            var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
+            var published_promos = [];
+            $.each( store_promos , function( key, val ){
+                today = moment();
+                webDate = moment(val.show_on_web_date);
+                if (today >= webDate) {
+                    published_promos.push(val)
+                } 
+            });
+            if( published_promos.length > 0){
+                renderPromotions("#promos_container","#promos_template", published_promos);
+                $('#promo_anchor span').text(published_promos.length)
             } else {
-                renderStoreDetails("#store_container","#store_template", store_details, slug);
-                
-                //PROMOS
-                var store_promo_ids = store_details.promotions
-                var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
-                var published_promos = [];
-                $.each( store_promos , function( key, val ){
-                    today = moment();
-                    webDate = moment(val.show_on_web_date);
-                    if (today >= webDate) {
-                        published_promos.push(val)
-                    } 
-                });
-                if( published_promos.length > 0){
-                    renderPromotions("#promos_container","#promos_template", published_promos);
-                    $('#promo_anchor span').text(published_promos.length)
-                } else {
-                    $('#promos_main').hide()
-                    $('#promo_anchor').hide()
-                }
-                
-                // JOBS
-                var store_job_ids = store_details.jobs
-                var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
-                var published_jobs = [];
-                $.each( store_jobs , function( key, val ){
-                    today = moment();
-                    webDate = moment(val.show_on_web_date);
-                    if (today >= webDate) {
-                        published_jobs.push(val)
-                    } 
-                });
-                if( published_jobs.length > 0){
-                    renderJobs('#jobs_container', '#jobs_template', published_jobs);
-                    $('#job_anchor span').text(published_jobs.length)
-                } else {
-                    $('#jobs_main').hide();
-                    $('#job_anchor').hide()
-                }
-                
-                var svg_width = 1080;
-                var svg_height = 1224;
-                //MAP  
-                var stores = getStoresList();
-                var mall_json = {};
-                var landmarks = {};
-                mall_json.mapwidth = svg_width;
-                mall_json.mapheight = svg_height;
-                mall_json.categories = [];
-                mall_json.levels = [];
-    
-                // need to add the following for each floor we want to configure.
-                _.forEach(floorList(), function(value, key) {
-                    var floor_1 = {};
-                    floor_1.id = value.id;
-                    floor_1.title = value.title;
-                    floor_1.map = value.map;
-                    floor_1.show = value.show;
-                    floor_1.locations = [];
-                    var stores_on_floors= [];
-                    if( value.z_index == null) {
-                        stores_on_floors = stores;
-                    } else {
-                        stores_on_floors = _.filter(stores, function(o) { if(o.z_coordinate == null) {return true;} else { return value.z_index === o.z_coordinate; }});
-                    }
-                    _.forEach(stores_on_floors, function(val, key) {
-                        //for testing limiting the store numbers to vm
-                        var temp_val = {};
-                        temp_val.id = val.id;
-                        temp_val.title = val.name;
-                        temp_val.about = val.description.substring(0, 200);
-                        if (val.categories != null) {
-                            if (val.categories.length > 1) {
-                                temp_val.category = val.categories[1];
-                            } else {
-                                temp_val.category = val.categories[0];
-                            }
-                        }
-                        temp_val.zoom = 2;
-                        temp_val.link = "/stores/" + val.slug;
-                        temp_val.pin = "hidden";
-    
-                        //get svg's width/height by checking the map
-                        
-                        temp_val.x = val.x_coordinate / svg_width;
-                        temp_val.y = val.y_coordinate / svg_height;
-                        
-                        // temp_val.zoom = "5";
-                        floor_1.locations.push(temp_val);
-                    });
-                    mall_json.levels.push(floor_1);
-                });
-                
-                map = $('.mapsvg_store_detail').mapplic({
-                    source: mall_json,
-                    height: 400,
-                    landmark: true,
-                    mapfill: true,
-                    minimap: false,
-                    sidebar: false,
-                    hovertip: true,
-                    developer: false,
-                    fullscreen: false,
-                    clearbutton: false,
-                    deeplinking: false,
-                    fillcolor: "none",
-                    maxscale: 1,
-                    skin: 'mapplic-dark',
-                    action: "tooltip"
-                });
-    
-                map.on('mapready', function(e, self) {
-                    self.showLocation(store_details.id);
-                });
+                $('#promos_main').hide()
+                $('#promo_anchor').hide()
+            }
+            
+            // JOBS
+            var store_job_ids = store_details.jobs
+            var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
+            var published_jobs = [];
+            $.each( store_jobs , function( key, val ){
+                today = moment();
+                webDate = moment(val.show_on_web_date);
+                if (today >= webDate) {
+                    published_jobs.push(val)
+                } 
+            });
+            if( published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+                $('#job_anchor span').text(published_jobs.length)
+            } else {
+                $('#jobs_main').hide();
+                $('#job_anchor').hide()
+            }
+        
+            show_content();
+            // Enhanced map code
+            $('#iFrame1').css('display','block')
+            console.log('IE ' + detectIE());
+            if(detectIE()){
+                var svg_url = '//mallmaverickstaging.com'+getPropertyDetails().svgmap_url;
+                $('#iFrame1').remove();
+                $("#IE_map").attr("src", svg_url)
+            } else {
+                $('#IE_map').remove();
             }
         }
-      
-        // loadMallDataCached(renderAll);
-        
-        show_content();
-        // Enhanced map code
-        $('#iFrame1').css('display','block')
-        console.log('IE ' + detectIE());
-        if(detectIE()){
-            var svg_url = '//mallmaverickstaging.com'+getPropertyDetails().svgmap_url;
-            $('#iFrame1').remove();
-            $("#IE_map").attr("src", svg_url)
-        } else {
-            $('#IE_map').remove();
-        }
-        loadMallDataCached(renderAll); 
-    });
+		loadMallDataCached(renderAll); 
+    })
         // Enhanced map code
     window.addEventListener('message', function(event) {
         // IMPORTANT: check the origin of the data! 
