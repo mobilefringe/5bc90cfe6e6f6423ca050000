@@ -17,6 +17,7 @@
             } 
             else {
                 $('#IE_map').remove();
+                $('#IE_map_text').remove();
             }
             show_content();
         }
