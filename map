@@ -73,7 +73,7 @@
     }
     @media (max-width: 768px) {
         html, iframe, #IE_map{
-            height: calc(100vh - 80px) !important;
+            height: calc(100vh - 119px) !important;
         }
         .home_hours_phone {
             display:none!important;
