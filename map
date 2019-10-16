@@ -13,6 +13,7 @@
                 var svg_url = '//mallmaverick.com'+getPropertyDetails().svgmap_url;
                 $('#iFrame1').remove();
                 $("#IE_map").attr("src", svg_url)
+                $('#IE_map_text').show();
             } 
             else {
                 $('#IE_map').remove();
