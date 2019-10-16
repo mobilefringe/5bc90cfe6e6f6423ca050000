@@ -50,7 +50,7 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('//aberdeen.mallmaverickstaging.com/api/v4/aberdeen/all.json');
+        setEndPoint('//aberdeen.mallmaverick.com/api/v4/aberdeen/all.json');
         setSocialEndPoint('//aberdeen.mallmaverick.com/api/v2/aberdeen/social.json')
     </script>
     
