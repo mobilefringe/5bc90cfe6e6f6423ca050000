@@ -51,7 +51,6 @@
     
     <script>
         setEndPoint('//aberdeen.mallmaverick.com/api/v4/aberdeen/all.json');
-        setSocialEndPoint('//aberdeen.mallmaverick.com/api/v2/aberdeen/social.json')
     </script>
     
     <script>
@@ -62,19 +61,6 @@
         
         ga('create', 'UA-69974835-41', 'auto');
         ga('send', 'pageview');
-    </script>
-    <script>
-        /**
-        * Function that tracks a click on an outbound link in Analytics.
-        * This function takes a valid URL string as an argument, and uses that URL string
-        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-        * using 'navigator.sendBeacon' in browser that support it.
-        */
-        var trackOutboundLink = function(url) {
-            ga('send', 'event', 'outbound', 'click', url, {
-                'transport': 'beacon'
-            });
-        }
     </script>
 </head>
 
@@ -216,60 +202,6 @@
     <section class="yield">
         {{yield}}
     </section>
-
-    
-    <script>
-        jQuery(document).ready(function($){
-            $.getJSON("//aberdeen.mallmaverick.com/api/v3/aberdeen/messages.json").done(function(data){
-                var messages = data.messages.bulletin
-                if (messages != undefined){
-                    if (messages.length == 0){
-                        $('.news-ticker').hide();
-                    } else {
-                        $.each(messages, function(key ,val){
-                            $('#bulletin').append('<li><strong>' + val.messages[0].title + ' </strong>'  + val.messages[0].body +  '</li>')
-                        });
-                        if ($('#bulletin li').length > 1){
-                            var tickerSpeed = $('.news-ticker').attr('data-speed');
-                            $('.news-ticker ul li').hide();
-                            $('.news-ticker ul li:first').show();
-                            
-                            var currentSlide = 0;
-                            var slideCount = ($('.news-ticker li').length) - 1;
-                            var startTicker = setInterval(function(){
-                            
-                            $('.news-ticker ul li').eq(currentSlide).fadeOut(500)
-                            
-                            if (currentSlide < slideCount) {
-                                currentSlide += 1;
-                            } else {
-                                currentSlide = 0;
-                            }
-                            
-                            $('.news-ticker ul li').eq(currentSlide).fadeIn(500)
-                            }, tickerSpeed);
-                        }
-                    $('.news-ticker').show();
-                    }
-                } else {
-                    $('.news-ticker').hide();
-                }
-            });
-        });
-    </script>
-    <script>
-        /**
-        * Function that tracks a click on an outbound link in Analytics.
-        * This function takes a valid URL string as an argument, and uses that URL string
-        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-        * using 'navigator.sendBeacon' in browser that support it.
-        */
-        var trackOutboundLink = function(url) {
-            ga('send', 'event', 'outbound', 'click', url, {
-                'transport': 'beacon'
-            });
-        }
-    </script>
 </body>
 
 </html>
