@@ -109,7 +109,7 @@
             show_content();
             var map = $('#mapsvg_store_detail').mapSvg({
                 source: '//assets.mallmaverick.com' + getPropertyDetails().svgmap_url,
-                colors: {stroke: '#fff', selected: "#D8836C", hover: "#a6a6a6"},
+                colors: {stroke: '#fff', selected: "#000", hover: "#a6a6a6"},
                 disableAll: true,
                 regions: regions,
                 height:1700,
