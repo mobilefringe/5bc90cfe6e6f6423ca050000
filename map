@@ -59,7 +59,7 @@
     }
     @media (max-width: 768px) {
         html, iframe, #IE_map {
-            height: calc(100vh - 194.48px) !important;
+            height: calc(100vh - 194.8px) !important;
         }
         #mobileMap {
             display:block!important;
