@@ -57,6 +57,9 @@
     #desktopMap {
         display:block!important;
     }
+    .map_popover_content a {
+        color: #000 !important;
+    }
     @media (max-width: 768px) {
         html, iframe, #IE_map {
             height: calc(100vh - 194.8px) !important;
