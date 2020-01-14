@@ -208,7 +208,11 @@
     <section class="yield">
         {{yield}}
     </section>
-
+<div class="trim_screen">
+                    <a id="track_link" href="https://www.wires.org.au/" target="_blank">
+                        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/5d8baf086e6f641798050000/image/jpeg/1578946050000/940x500.jpg" alt=""/>
+                    </a>
+                </div>
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h3 class="heading">Subscribe to Receive Our Updates</h3>
