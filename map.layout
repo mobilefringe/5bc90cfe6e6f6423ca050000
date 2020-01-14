@@ -257,11 +257,7 @@
             });
         });
     </script>
-    <script>
-        $("#track_link").click( function() {
-            trackOutboundLink('https://www.wires.org.au/');
-        });
-    </script>
+  
 </body>
 
 </html>
