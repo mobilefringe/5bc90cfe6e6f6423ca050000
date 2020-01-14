@@ -330,6 +330,11 @@
             </div>
         </div>
     </section>
+    <script>
+        $("#track_link").click( function() {
+            trackOutboundLink('THE_LINK');
+        });
+    </script>
 </body>
 
 </html>
