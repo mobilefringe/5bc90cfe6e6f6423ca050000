@@ -337,7 +337,7 @@
     </section>
     <script>
         $("#track_link").click( function() {
-            trackOutboundLink('THE_LINK');
+            trackOutboundLink('https://www.wires.org.au/');
         });
     </script>
 </body>
