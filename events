@@ -184,6 +184,12 @@
                     
                     start.setMonth(now.getMonth())
                     end.setMonth(now.getMonth() + 3); //Adjust as needed
+                    
+                    
+                    if (start == view.start) {
+                        $("#calendar .fc-prev-button").addClass("fc-state-disabled");
+                        return false;
+                    }
         
                     if ( end < view.end) {
                         $("#calendar .fc-next-button").addClass("fc-state-disabled");
