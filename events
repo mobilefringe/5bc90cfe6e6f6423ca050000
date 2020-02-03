@@ -1,0 +1,199 @@
+<div class="main_banner text-center">
+    <h2>Events</h2>
+    <p>EXPLORE • ENJOY • SHOP</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-6 col-sm-6">
+            <h5><a href="/promotions">Promotions</a></h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <h5 class="active_heading">Events</h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <label class="accessibility" for="option_selector">Select an Option</label>
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap For More Options</option>
+            <option value="/promotions">Promotions</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+ <div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="event_btns">
+                    <div id="calendarBtn" class="event_toggle_btn hidden_now"><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</div>
+                    <div id="listBtn" class="event_toggle_btn"><i class="fa fa-list" aria-hidden="true"></i> List View</div>    
+                </div>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane" id="eventsCalendar">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="margin_30"></div>
+                                <div class="position_relative">
+                                    <div class="calendar" id="calendar"></div>
+                                    <div class="margin_60"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="eventsList">
+                        <div id="promos_container">
+                            <script id="promos_template" type="x-tmpl-mustache/text">
+                                <div class="row promo_item">
+                                    <div class="col-md-3">
+                                        <div class="cropped_image">
+                                            <img src="{{event_image_url_abs}}" alt="{{name}}" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h2 class="promo_list_name">{{name}}</h2>
+                                        <p>
+                                            <span class="promo_store">{{store_name}}</span><span class="hidden_phone"> | </span>
+                                            <span class="promo_dates">{{dates}}</span>
+                                        </p>
+                                        <div class="promo_list_desc">{{description_short}}</div>
+                                        <a class="newsletter_btn animated_btn inside_btn" href="/events/{{slug}}">
+                                            View Event Details <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row hidden_now" id="no_events">
+            <div class="col-md-12">
+                <p>There are no Events scheduled at this time. Please check back soon!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/fullcalendar_overrides.css"/>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var banner_repo = getRepoDetailsByName("Events Banner");
+            if (banner_repo) {
+                var banner_image = banner_repo.images[0].image_url;
+                if (banner_image) {
+                    $(".main_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #013a80 url(" + banner_image + ") center center no-repeat" });
+                }
+            }
+            var propertyTz = getPropertyTimeZone();
+            var today = moment().tz(propertyTz);
+            var promotions = getEventsList().sortBy(function(o){ return o.end_date });
+            var published_promos = [];
+            var calendar_promos = [];
+            $.each(promotions, function(key, val) {
+                webDate = moment(val.show_on_web_date);
+                if (today >= webDate) {
+                    val.start = moment(val.start_date).tz(propertyTz).format();
+                    val.end = moment(val.end_date).tz(propertyTz).format();
+                    val.title = val.name;
+                    val.url = "/events/" + val.slug;
+                    
+                    
+                    val.store_name = "Aberdeen Mall";
+                    val.image_url = "https://mallmaverick.cdn.speedyrails.net" + val.event_image_url;
+                    val.logo  = "//codecloud.cdn.speedyrails.net/sites/5d8baf086e6f641798050000/image/png/1546964185000/aberdeenlogo.png";
+                    if(val.image_url.indexOf('missing.png') > 0){
+                        val.image_url  = val.logo;
+                    }
+                    
+                    if (val.name.length > 30){
+                        val.name_short = val.name.substring(0,30) + "...";
+                    } else {
+                        val.name_short = val.name;
+                    }
+                    
+                    if (val.description.length > 200){
+                        val.desc_short = val.description.substring(0, 199) + "...";
+                    } else {
+                        val.desc_short = val.description;
+                    }
+                    
+                    var show_date = moment(val.show_on_web_date);
+                    var start = moment(val.start_date).tz(propertyTz);
+                    var end = moment(val.end_date).tz(propertyTz);
+                    if (start.format("DMY") == end.format("DMY")){
+                        val.dates = start.format("dddd, MMMM Do, YYYY")
+                        val.day = start.format("ddd")
+                        val.num = start.format("D")
+                        val.month = start.format("MMM")
+                        val.show_date = "display: none;"
+                    } else {
+                        val.dates = start.format("dddd, MMMM Do, YYYY") + " to " + end.format("dddd, MMMM Do, YYYY")
+                        val.day = start.format("ddd")
+                        val.num = start.format("D")
+                        val.month = start.format("MMM")
+                    }
+                    if(!_.includes(val.tags, 'calendar')){
+                        published_promos.push(val);
+                    }
+                    
+                    calendar_promos.push(val);
+                    
+                } 
+            });
+            
+            if (published_promos.length > 0) {
+                renderEvents("#promos_container", "#promos_template", published_promos, "Aberdeen Mall");
+            } else {
+                $('#no_events').show()
+            }
+            
+            $('#eventsCalendar').fadeIn();
+            
+            $('#listBtn').click(function(){
+                $('#listBtn').hide();
+                $('#calendarBtn').show(); 
+                $('#eventsCalendar').fadeOut();
+                $('#eventsList').fadeIn();
+            });
+            
+            $('#calendarBtn').click(function() {
+                $('#calendarBtn').hide();
+                $('#listBtn').show();
+                $('#eventsList').fadeOut();
+                $('#eventsCalendar').fadeIn();
+            });
+            
+            $('#calendar').fullCalendar({
+                header: {
+                    right:  'prev,next'
+                },
+                timezone: getPropertyTimeZone(),
+                events: calendar_promos,
+                buttonText: {
+                    // prev: "Previous Month",
+                    next: "Next Month"
+                },
+                viewRender: function(view,element) {
+                    var now = new Date();
+                    var end = new Date();
+                    end.setMonth(now.getMonth() + 3); //Adjust as needed
+        
+                    if ( end < view.end) {
+                        $("#calendar .fc-next-button").addClass("fc-state-disabled");
+                        return false;
+                    }
+                    else {
+                        $("#calendar .fc-next-button").removeClass("fc-state-disabled");
+                    }
+                }
+            });
+            
+            show_content();
+        }
+		loadMallDataCached(renderAll); 
+    })
+</script>
