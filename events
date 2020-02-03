@@ -179,7 +179,10 @@
                 },
                 viewRender: function(view,element) {
                     var now = new Date();
+                    var start = new Date();
                     var end = new Date();
+                    
+                    start.setMonth(now.getMonth())
                     end.setMonth(now.getMonth() + 3); //Adjust as needed
         
                     if ( end < view.end) {
