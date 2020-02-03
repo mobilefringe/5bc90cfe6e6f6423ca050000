@@ -189,7 +189,7 @@
                     end.setMonth(now.getMonth() + 3); //Adjust as needed
                     
                     
-                    if (start == view>start) {
+                    if (start >= view.start) {
                         $("#calendar .fc-prev-button").addClass("fc-state-disabled");
                         return false;
                     }
