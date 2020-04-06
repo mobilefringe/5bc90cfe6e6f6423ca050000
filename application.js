@@ -40,7 +40,7 @@ function renderContest(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val){
-        val.image_url = "https://www.mallmaverick.com" + val.photo_url;
+        val.image_url = "https://www.assets.mallmaverick.com" + val.photo_url;
         val.property_name = getPropertyDetails().name;
         
         var rendered = Mustache.render(template_html,val);
